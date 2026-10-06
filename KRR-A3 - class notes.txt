@@ -1,0 +1,92 @@
+You can create node by using the following syntax of cypher 
+Cypher : Graph query language for neo4j 
+
+"Create" command is used tyo create nodes and relationshsips between nodes 
+"RETURN" command is used to display the node on screen 
+
+lets create 2 nodes of a social network, i.e 2 persons 
+
+1st lets see the structure of create statement 
+
+CREATE (veriableName:NodeType {attribute1: value1, attribute2: value2, .....} ), (other node in same pattern), (), ....
+
+RETURN veriableName
+
+now lets see it with actual data 
+
+VeriableName: can be any name of veriable, this is actually an object/ pointer that holder reference of the node created in memory, like n1, node1, person etc (in lowerCamelCase recommended)
+
+NodeType : can be Any Name of Nodes TYPE or CLASS, i.e many nodes can belong to same class or Type, let say Person, Student , Teacher (UpperCamelCase Recommended)  
+
+then comes dictionary containing all the attribtes and values pairs coma seperted, 
+can be anything, lowercase recommended 
+
+Commands like CREATE, RETURN, MERGE, MATCH etc ALL_CAPS_ON recommended 
+
+"""
+
+CREATE (n1 : Person {name:"ali", age:25}), (n2: Person {name:"alia", age:2})
+RETURN n1, n2
+
+"""
+
+This cypher query will create 2 nodes in memory and display them on screen and after accomplishing this, this query will be terminated like a normal program exit, its veriables cant be used in other querym however the data it created will remain in main memory and will be stored on long term storage after you exit neo4j, okay
+
+now lets test it  
+
+done ??
+
+Now lets fethc those 2 already created nods and lets try to connect them using a relationship 
+
+Relationship in neo4j has the same structure like node in neo4j i.e 
+
+(node1) - [veriableName:RelationshipType {attribute1: value1, attribute2: value2, .....} ] - > (node2)
+
+lets see it with actual data 
+
+1st we'll fetch 2 nodes using MATCH command which works similar to SELECT comand in SQL 
+then we'll create relationship using CREATE command 
+
+MATCH (n1: Person{name:"ali"}),     // we can match a node by giving cvlass types and attributes 
+      (n2: Person)
+WHERE n2.name = "alia"              // we can also match a node by using WHERE command just like sql
+
+CREATE (n1)-[rel:isFatherOF]->(n2)     // you may try patterns like these ()-[]-(), ()-[]->(), ()<-[]-(),...
+			  		// you may use any name instead of rel it just a varaiable name   
+RETURN n1, n2, rel 		 // we dont need as such attrib values paisr in relationships, but we can .. 
+
+okay ? hazam ho gya ?
+lets try this 
+
+
+ALLAH Hafiz 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

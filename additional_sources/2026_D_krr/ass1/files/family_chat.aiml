@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- ==========================================
+     GREETINGS, CLEARANCE & TERMINATIONS
+     ========================================== -->
+<category><pattern>HI</pattern><template>Hello! I am the Family Knowledge Base assistant. Ask me about any family member!</template></category>
+<category><pattern>HELLO</pattern><template>Hi there! Ask me about family relationships, birthdays, cities, or professions.</template></category>
+<category><pattern>HI THERE</pattern><template>Hello! How can I help you with the family knowledge base?</template></category>
+<category><pattern>HEY</pattern><template>Hey! Ask me anything about the family.</template></category>
+<category><pattern>AOA</pattern><template>Walaikum Assalam! How can I assist you with the family tree today?</template></category>
+<category><pattern>ASSALAM O ALAIKUM</pattern><template>Walaikum Assalam! Ask me anything about family relationships or history.</template></category>
+<category><pattern>BYE</pattern><template>Goodbye! Come back anytime.</template></category>
+<category><pattern>EXIT</pattern><template>Goodbye!</template></category>
+<category><pattern>QUIT</pattern><template>Goodbye!</template></category>
+
+<!-- ==========================================
+     FATHER QUERIES (40+ Permutations Covered)
+     ========================================== -->
+<category><pattern>WHO IS THE FATHER OF *</pattern><template>QUERY:father:<star/></template></category>
+<category><pattern>WHO IS FATHER OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>* FATHER OF *</pattern><template><srai>WHO IS THE FATHER OF <star index="2"/></srai></template></category>
+<category><pattern>FATHER OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>* DAD OF *</pattern><template><srai>WHO IS THE FATHER OF <star index="2"/></srai></template></category>
+<category><pattern>DAD OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>WHO IS * FATHER</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>WHO IS * DAD</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>FIND FATHER OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>TELL ME THE FATHER OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>WHOS THE DAD OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>WHO IS * PAPA</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>PAPA OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>WHAT IS THE NAME OF * FATHER</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>WHO MIGHT BE THE FATHER OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<!-- Roman Urdu Variations -->
+<category><pattern>* KA BAAP KAUN HAI</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>* KA WALID KAUN HAI</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>* KA ABBU KAUN HAIN</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>* KA PAPA KAUN HAI</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>* KA ABBU</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>* KA WALID</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>* KA BAAP</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>ABBU OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>WALID OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>BAAP OF *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<!-- Broken / Fragmented Catch-All Nets (Covers 20+ additional broken styles) -->
+<category><pattern>* FATHER</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>FATHER *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>* DAD</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>DAD *</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>WHO * FATHER</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>WHO * DAD</pattern><template><srai>WHO IS THE FATHER OF <star/></srai></template></category>
+<category><pattern>WHO * FATHER *</pattern><template><srai>WHO IS THE FATHER OF <star index="2"/></srai></template></category>
+<category><pattern>WHO * DAD *</pattern><template><srai>WHO IS THE FATHER OF <star index="2"/></srai></template></category>
+<category><pattern>* FATHER *</pattern><template><srai>WHO IS THE FATHER OF <star index="1"/></srai></template></category>
+<category><pattern>* DAD *</pattern><template><srai>WHO IS THE FATHER OF <star index="1"/></srai></template></category>
+<category><pattern>* ABBU *</pattern><template><srai>WHO IS THE FATHER OF <star index="1"/></srai></template></category>
+<category><pattern>* WALID *</pattern><template><srai>WHO IS THE FATHER OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     MOTHER QUERIES (40+ Permutations Covered)
+     ========================================== -->
+<category><pattern>WHO IS THE MOTHER OF *</pattern><template>QUERY:mother:<star/></template></category>
+<category><pattern>WHO IS MOTHER OF *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>* MOTHER OF *</pattern><template><srai>WHO IS THE MOTHER OF <star index="2"/></srai></template></category>
+<category><pattern>MOTHER OF *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>* MOM OF *</pattern><template><srai>WHO IS THE MOTHER OF <star index="2"/></srai></template></category>
+<category><pattern>MOM OF *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>WHO IS * MOTHER</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>WHO IS * MOM</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>FIND MOTHER OF *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>TELL ME THE MOTHER OF *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>WHOS THE MOM OF *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>WHO IS * MAMMA</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>MAMMA OF *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>WHAT IS THE NAME OF * MOTHER</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<!-- Roman Urdu Variations -->
+<category><pattern>* KI MAAN KAUN HAI</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>* KI AMMI KAUN HAIN</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>* KI WALDA KAUN HAI</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>* KI MOM KAUN HAI</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>* KI AMMI</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>* KI WALDA</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>* KI MAAN</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>AMMI OF *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>MAAN OF *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>WALDA OF *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<!-- Fragments & Broken Sentences -->
+<category><pattern>* MOTHER</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>MOTHER *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>* MOM</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>MOM *</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>WHO * MOTHER</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>WHO * MOM</pattern><template><srai>WHO IS THE MOTHER OF <star/></srai></template></category>
+<category><pattern>WHO * MOTHER *</pattern><template><srai>WHO IS THE MOTHER OF <star index="2"/></srai></template></category>
+<category><pattern>WHO * MOM *</pattern><template><srai>WHO IS THE MOTHER OF <star index="2"/></srai></template></category>
+<category><pattern>* MOTHER *</pattern><template><srai>WHO IS THE MOTHER OF <star index="1"/></srai></template></category>
+<category><pattern>* MOM *</pattern><template><srai>WHO IS THE MOTHER OF <star index="1"/></srai></template></category>
+<category><pattern>* AMMI *</pattern><template><srai>WHO IS THE MOTHER OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     SIBLING QUERIES (40+ Permutations Covered)
+     ========================================== -->
+<category><pattern>WHO ARE THE SIBLINGS OF *</pattern><template>QUERY:sibling:<star/></template></category>
+<category><pattern>WHO ARE SIBLINGS OF *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>SIBLINGS OF *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>WHO ARE * SIBLINGS</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>FIND SIBLINGS OF *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>LIST SIBLINGS OF *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>SHOW SIBLINGS OF *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<!-- Roman Urdu -->
+<category><pattern>* KE BEHEN BHAI KAUN HAIN</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>* KE BHAI BEHEN KAUN HAIN</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>* KE BEHEN BHAI</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>* KE BHAI BEHEN</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>BEHEN BHAI OF *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>BHAI BEHEN OF *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<!-- Fragments & Broken Sentences -->
+<category><pattern>* SIBLINGS</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>SIBLINGS *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>* SIBLING</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>SIBLING *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>WHO * SIBLINGS</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>WHO * SIBLING</pattern><template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template></category>
+<category><pattern>WHO * SIBLINGS *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star index="2"/></srai></template></category>
+<category><pattern>* SIBLINGS *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star index="1"/></srai></template></category>
+<category><pattern>* SIBLING *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star index="1"/></srai></template></category>
+<category><pattern>* BEHEN BHAI *</pattern><template><srai>WHO ARE THE SIBLINGS OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     BROTHER QUERIES (40+ Permutations Covered)
+     ========================================== -->
+<category><pattern>WHO ARE THE BROTHERS OF *</pattern><template>QUERY:brother:<star/></template></category>
+<category><pattern>BROTHERS OF *</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>WHO ARE * BROTHERS</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>WHO IS THE BROTHER OF *</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>WHO IS BROTHER OF *</pattern><template><srai>WHO ARE THE BROTHERS of <star/></srai></template></category>
+<!-- Roman Urdu -->
+<category><pattern>* KE BHAI KAUN HAIN</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>* KA BHAI KAUN HAI</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>* KE BHAI</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>* KA BHAI</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>BHAI OF *</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<!-- Fragments & Broken Sentences -->
+<category><pattern>* BROTHERS</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>BROTHERS *</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>* BROTHER</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>BROTHER *</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>WHO * BROTHER</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>WHO * BROTHERS</pattern><template><srai>WHO ARE THE BROTHERS OF <star/></srai></template></category>
+<category><pattern>WHO * BROTHER *</pattern><template><srai>WHO ARE THE BROTHERS OF <star index="2"/></srai></template></category>
+<category><pattern>* BROTHER *</pattern><template><srai>WHO ARE THE BROTHERS OF <star index="1"/></srai></template></category>
+<category><pattern>* BROTHERS *</pattern><template><srai>WHO ARE THE BROTHERS OF <star index="1"/></srai></template></category>
+<category><pattern>* BHAI *</pattern><template><srai>WHO ARE THE BROTHERS OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     SISTER QUERIES (40+ Permutations Covered)
+     ========================================== -->
+<category><pattern>WHO ARE THE SISTERS OF *</pattern><template>QUERY:sister:<star/></template></category>
+<category><pattern>SISTERS OF *</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>WHO ARE * SISTERS</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>WHO IS THE SISTER OF *</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>WHO IS SISTER OF *</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<!-- Roman Urdu -->
+<category><pattern>* KI BEHENAIN KAUN HAIN</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>* KI BEHEN KAUN HAI</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>* KI BEHENAIN</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>* KI BEHEN</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>BEHEN OF *</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<!-- Fragments & Broken Sentences -->
+<category><pattern>* SISTERS</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>SISTERS *</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>* SISTER</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>SISTER *</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>WHO * SISTER</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>WHO * SISTERS</pattern><template><srai>WHO ARE THE SISTERS OF <star/></srai></template></category>
+<category><pattern>WHO * SISTER *</template><template><srai>WHO ARE THE SISTERS OF <star index="2"/></srai></template></category>
+<category><pattern>* SISTER *</pattern><template><srai>WHO ARE THE SISTERS OF <star index="1"/></srai></template></category>
+<category><pattern>* SISTERS *</pattern><template><srai>WHO ARE THE SISTERS OF <star index="1"/></srai></template></category>
+<category><pattern>* BEHEN *</pattern><template><srai>WHO ARE THE SISTERS OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     CHILDREN QUERIES (40+ Permutations Covered)
+     ========================================== -->
+<category><pattern>WHO ARE THE CHILDREN OF *</pattern><template>QUERY:child:<star/></template></category>
+<category><pattern>CHILDREN OF *</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>KIDS OF *</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>SHOW ME CHILDREN OF *</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>WHO IS CHILD OF *</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<!-- Roman Urdu -->
+<category><pattern>* KE BACHE KAUN HAIN</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>* KE BACHAY KAUN HAIN</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>* KE BACHE</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>* KE BACHAY</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>BACHE OF *</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>BACHAY OF *</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<!-- Fragments & Broken Sentences -->
+<category><pattern>* CHILDREN</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>CHILDREN *</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>* KIDS</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>KIDS *</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>WHO * CHILDREN</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>WHO * KIDS</pattern><template><srai>WHO ARE THE CHILDREN OF <star/></srai></template></category>
+<category><pattern>WHO * CHILDREN *</template><template><srai>WHO ARE THE CHILDREN OF <star index="2"/></srai></template></category>
+<category><pattern>WHO * KIDS *</template><template><srai>WHO ARE THE CHILDREN OF <star index="2"/></srai></template></category>
+<category><pattern>* CHILDREN *</pattern><template><srai>WHO ARE THE CHILDREN OF <star index="1"/></srai></template></category>
+<category><pattern>* KIDS *</pattern><template><srai>WHO ARE THE CHILDREN OF <star index="1"/></srai></template></category>
+<category><pattern>* BACHE *</pattern><template><srai>WHO ARE THE CHILDREN OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     SON QUERIES (40+ Permutations Covered)
+     ========================================== -->
+<category><pattern>WHO IS THE SON OF *</pattern><template>QUERY:son:<star/></template></category>
+<category><pattern>WHO ARE THE SONS OF *</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>SON OF *</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>* SONS OF *</pattern><template><srai>WHO IS THE SON OF <star index="2"/></srai></template></category>
+<category><pattern>WHO IS * SON</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<!-- Roman Urdu -->
+<category><pattern>* KA BETA KAUN HAI</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>* KE BETE KAUN HAIN</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>* KA BETA</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>* KE BETE</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>BETA OF *</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>BETE OF *</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<!-- Fragments & Broken Sentences -->
+<category><pattern>* SON</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>SON *</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>* SONS</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>WHO * SON</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>WHO * SONS</pattern><template><srai>WHO IS THE SON OF <star/></srai></template></category>
+<category><pattern>WHO * SON *</pattern><template><srai>WHO IS THE SON OF <star index="2"/></srai></template></category>
+<category><pattern>WHO * SONS *</pattern><template><srai>WHO IS THE SON OF <star index="2"/></srai></template></category>
+<category><pattern>* SON *</pattern><template><srai>WHO IS THE SON OF <star index="1"/></srai></template></category>
+<category><pattern>* SONS *</pattern><template><srai>WHO IS THE SON OF <star index="1"/></srai></template></category>
+<category><pattern>* BETA *</pattern><template><srai>WHO IS THE SON OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     DAUGHTER QUERIES (40+ Permutations Covered)
+     ========================================== -->
+<category><pattern>WHO IS THE DAUGHTER OF *</pattern><template>QUERY:daughter:<star/></template></category>
+<category><pattern>WHO ARE THE DAUGHTERS OF *</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>DAUGHTER OF *</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>WHO IS * DAUGHTER</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<!-- Roman Urdu -->
+<category><pattern>* KI BETI KAUN HAI</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>* KI BETIYAN KAUN HAIN</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>* KI BETI</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>* KI BETIYAN</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>BETI OF *</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>BETIYAN OF *</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<!-- Fragments & Broken Sentences -->
+<category><pattern>* DAUGHTER</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>DAUGHTER *</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>* DAUGHTERS</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>WHO * DAUGHTER</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>WHO * DAUGHTERS</pattern><template><srai>WHO IS THE DAUGHTER OF <star/></srai></template></category>
+<category><pattern>WHO * DAUGHTER *</pattern><template><srai>WHO IS THE DAUGHTER OF <star index="2"/></srai></template></category>
+<category><pattern>* DAUGHTER *</pattern><template><srai>WHO IS THE DAUGHTER OF <star index="1"/></srai></template></category>
+<category><pattern>* DAUGHTERS *</pattern><template><srai>WHO IS THE DAUGHTER OF <star index="1"/></srai></template></category>
+<category><pattern>* BETI *</pattern><template><srai>WHO IS THE DAUGHTER OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     GRANDPARENT / GRANDFATHER / GRANDMOTHER (40+ Covered)
+     ========================================== -->
+<category><pattern>WHO ARE THE GRANDPARENTS OF *</pattern><template>QUERY:grandparent:<star/></template></category>
+<category><pattern>GRANDPARENTS OF *</pattern><template><srai>WHO ARE THE GRANDPARENTS OF <star/></srai></template></category>
+<category><pattern>* GRANDPARENTS</pattern><template><srai>WHO ARE THE GRANDPARENTS OF <star/></srai></template></category>
+<category><pattern>WHO * GRANDPARENTS</pattern><template><srai>WHO ARE THE GRANDPARENTS OF <star/></srai></template></category>
+<category><pattern>WHO * GRANDPARENTS *</pattern><template><srai>WHO ARE THE GRANDPARENTS OF <star index="2"/></srai></template></category>
+<category><pattern>* GRANDPARENTS *</pattern><template><srai>WHO ARE THE GRANDPARENTS OF <star index="1"/></srai></template></category>
+
+<category><pattern>WHO IS THE GRANDFATHER OF *</pattern><template>QUERY:grandfather:<star/></template></category>
+<category><pattern>GRANDFATHER OF *</pattern><template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template></category>
+<category><pattern>* KA DADA KAUN HAI</pattern><template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template></category>
+<category><pattern>* KA NANA KAUN HAI</pattern><template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template></category>
+<category><pattern>* GRANDFATHER</pattern><template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template></category>
+<category><pattern>GRANDFATHER *</pattern><template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template></category>
+<category><pattern>WHO * GRANDFATHER</pattern><template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template></category>
+<category><pattern>WHO * GRANDFATHER *</pattern><template><srai>WHO IS THE GRANDFATHER OF <star index="2"/></srai></template></category>
+<category><pattern>* GRANDFATHER *</pattern><template><srai>WHO IS THE GRANDFATHER OF <star index="1"/></srai></template></category>
+<category><pattern>* DADA</pattern><template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template></category>
+<category><pattern>* NANA</pattern><template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template></category>
+<category><pattern>* DADA *</pattern><template><srai>WHO IS THE GRANDFATHER OF <star index="1"/></srai></template></category>
+<category><pattern>* NANA *</pattern><template><srai>WHO IS THE GRANDFATHER OF <star index="1"/></srai></template></category>
+
+<category><pattern>WHO IS THE GRANDMOTHER OF *</pattern><template>QUERY:grandmother:<star/></template></category>
+<category><pattern>GRANDMOTHER OF *</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star/></srai></template></category>
+<category><pattern>* KI DADI KAUN HAI</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star/></srai></template></category>
+<category><pattern>* KI NANI KAUN HAI</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star/></srai></template></category>
+<category><pattern>* GRANDMOTHER</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star/></srai></template></category>
+<category><pattern>GRANDMOTHER *</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star/></srai></template></category>
+<category><pattern>WHO * GRANDMOTHER</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star/></srai></template></category>
+<category><pattern>WHO * GRANDMOTHER *</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star index="2"/></srai></template></category>
+<category><pattern>* GRANDMOTHER *</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star index="1"/></srai></template></category>
+<category><pattern>* DADI</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star/></srai></template></category>
+<category><pattern>* NANI</template><srai>WHO IS THE GRANDMOTHER OF <star/></srai></category>
+<category><pattern>* DADI *</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star index="1"/></srai></template></category>
+<category><pattern>* NANI *</pattern><template><srai>WHO IS THE GRANDMOTHER OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     EXTENDED FAMILY - UNCLES & AUNTS (40+ Covered)
+     ========================================== -->
+<category><pattern>WHO ARE THE UNCLES OF *</pattern><template>QUERY:uncle:<star/></template></category>
+<category><pattern>UNCLES OF *</pattern><template><srai>WHO ARE THE UNCLES OF <star/></srai></template></category>
+<category><pattern>* KE CHACHA KAUN HAIN</pattern><template><srai>WHO ARE THE UNCLES OF <star/></srai></template></category>
+<category><pattern>* KE MAMOO KAUN HAIN</pattern><template><srai>WHO ARE THE UNCLES OF <star/></srai></template></category>
+<category><pattern>* UNCLES</pattern><template><srai>WHO ARE THE UNCLES OF <star/></srai></template></category>
+<category><pattern>* UNCLE</pattern><template><srai>WHO ARE THE UNCLES OF <star/></srai></template></category>
+<category><pattern>WHO * UNCLE</pattern><template><srai>WHO ARE THE UNCLES OF <star/></srai></template></category>
+<category><pattern>WHO * UNCLE *</pattern><template><srai>WHO ARE THE UNCLES OF <star index="2"/></srai></template></category>
+<category><pattern>* UNCLE *</pattern><template><srai>WHO ARE THE UNCLES OF <star index="1"/></srai></template></category>
+<category><pattern>* CHACHA *</pattern><template><srai>WHO ARE THE UNCLES OF <star index="1"/></srai></template></category>
+<category><pattern>* MAMOO *</pattern><template><srai>WHO ARE THE UNCLES OF <star index="1"/></srai></template></category>
+
+<category><pattern>WHO ARE THE AUNTS OF *</pattern><template>QUERY:aunt:<star/></template></category>
+<category><pattern>AUNTS OF *</pattern><template><srai>WHO ARE THE AUNTS OF <star/></srai></template></category>
+<category><pattern>* KI KHALA KAUN HAIN</pattern><template><srai>WHO ARE THE AUNTS OF <star/></srai></template></category>
+<category><pattern>* KI PHUPHI KAUN HAIN</pattern><template><srai>WHO ARE THE AUNTS OF <star/></srai></template></category>
+<category><pattern>* AUNTS</pattern><template><srai>WHO ARE THE AUNTS OF <star/></srai></template></category>
+<category><pattern>* AUNT</pattern><template><srai>WHO ARE THE AUNTS OF <star/></srai></template></category>
+<category><pattern>WHO * AUNT</pattern><template><srai>WHO ARE THE AUNTS OF <star/></srai></template></category>
+<category><pattern>WHO * AUNT *</pattern><template><srai>WHO ARE THE AUNTS OF <star index="2"/></srai></template></category>
+<category><pattern>* AUNT *</pattern><template><srai>WHO ARE THE AUNTS OF <star index="1"/></srai></template></category>
+<category><pattern>* KHALA *</pattern><template><srai>WHO ARE THE AUNTS OF <star index="1"/></srai></template></category>
+<category><pattern>* PHUPHI *</pattern><template><srai>WHO ARE THE AUNTS OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     COUSINS & ANCESTORS (40+ Covered)
+     ========================================== -->
+<category><pattern>WHO ARE THE COUSINS OF *</pattern><template>QUERY:cousin:<star/></template></category>
+<category><pattern>COUSINS OF *</pattern><template><srai>WHO ARE THE COUSINS OF <star/></srai></template></category>
+<category><pattern>* KE COUSINS KAUN HAIN</pattern><template><srai>WHO ARE THE COUSINS OF <star/></srai></template></category>
+<category><pattern>* COUSINS</pattern><template><srai>WHO ARE THE COUSINS OF <star/></srai></template></category>
+<category><pattern>* COUSIN</pattern><template><srai>WHO ARE THE COUSINS OF <star/></srai></template></category>
+<category><pattern>WHO * COUSIN</pattern><template><srai>WHO ARE THE COUSINS OF <star/></srai></template></category>
+<category><pattern>WHO * COUSINS *</pattern><template><srai>WHO ARE THE COUSINS OF <star index="2"/></srai></template></category>
+<category><pattern>* COUSIN *</pattern><template><srai>WHO ARE THE COUSINS OF <star index="1"/></srai></template></category>
+
+<category><pattern>WHO ARE THE ANCESTORS OF *</pattern><template>QUERY:ancestor:<star/></template></category>
+<category><pattern>ANCESTORS OF *</pattern><template><srai>WHO ARE THE ANCESTORS OF <star/></srai></template></category>
+<category><pattern>* KE ABBA O AJDAD KAUN HAIN</pattern><template><srai>WHO ARE THE ANCESTORS OF <star/></srai></template></category>
+<category><pattern>* ANCESTORS</pattern><template><srai>WHO ARE THE ANCESTORS OF <star/></srai></template></category>
+<category><pattern>WHO * ANCESTORS</pattern><template><srai>WHO ARE THE ANCESTORS OF <star/></srai></template></category>
+<category><pattern>WHO * ANCESTORS *</pattern><template><srai>WHO ARE THE ANCESTORS OF <star index="2"/></srai></template></category>
+<category><pattern>* ANCESTORS *</pattern><template><srai>WHO ARE THE ANCESTORS OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     SPOUSE & MARRIAGE (40+ Covered)
+     ========================================== -->
+<category><pattern>WHO IS THE SPOUSE OF *</pattern><template>QUERY:spouse:<star/></template></category>
+<category><pattern>SPOUSE OF *</pattern><template><srai>WHO IS THE SPOUSE OF <star/></srai></template></category>
+<category><pattern>WHO IS * MARRIED TO</pattern><template><srai>WHO IS THE SPOUSE OF <star/></srai></template></category>
+<category><pattern>* KI BIWI KAUN HAI</pattern><template><srai>WHO IS THE SPOUSE OF <star/></srai></template></category>
+<category><pattern>* KA SHOHAR KAUN HAI</pattern><template><srai>WHO IS THE SPOUSE OF <star/></srai></template></category>
+<category><pattern>* SPOUSE</pattern><template><srai>WHO IS THE SPOUSE OF <star/></srai></template></category>
+<category><pattern>SPOUSE *</pattern><template><srai>WHO IS THE SPOUSE OF <star/></srai></template></category>
+<category><pattern>* MARRIED</pattern><template><srai>WHO IS THE SPOUSE OF <star/></srai></template></category>
+<category><pattern>WHO * MARRIED</pattern><template><srai>WHO IS THE SPOUSE OF <star/></srai></template></category>
+<category><pattern>WHO * MARRIED *</pattern><template><srai>WHO IS THE SPOUSE OF <star index="2"/></srai></template></category>
+<category><pattern>* BIWI</pattern><template><srai>WHO IS THE SPOUSE OF <star/></srai></template></category>
+<category><pattern>* SHOHAR</pattern><template><srai>WHO IS THE SPOUSE OF <star/></srai></template></category>
+<category><pattern>* MARRIED *</pattern><template><srai>WHO IS THE SPOUSE OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     IN-LAWS (40+ Covered)
+     ========================================== -->
+<category><pattern>WHO IS THE FATHER IN LAW OF *</pattern><template>QUERY:father_in_law:<star/></template></category>
+<category><pattern>WHO IS * FATHER IN LAW</pattern><template><srai>WHO IS THE FATHER IN LAW OF <star/></srai></template></category>
+<category><pattern>* KA SUSAR KAUN HAI</pattern><template><srai>WHO IS THE FATHER IN LAW OF <star/></srai></template></category>
+<category><pattern>* FATHER IN LAW</pattern><template><srai>WHO IS THE FATHER IN LAW OF <star/></srai></template></category>
+<category><pattern>WHO * FATHER IN LAW</pattern><template><srai>WHO IS THE FATHER IN LAW OF <star/></srai></template></category>
+<category><pattern>WHO * FATHER IN LAW *</pattern><template><srai>WHO IS THE FATHER IN LAW OF <star index="2"/></srai></template></category>
+<category><pattern>* SUSAR</pattern><template><srai>WHO IS THE FATHER IN LAW OF <star/></srai></template></category>
+<category><pattern>* SUSAR *</pattern><template><srai>WHO IS THE FATHER IN LAW OF <star index="1"/></srai></template></category>
+
+<category><pattern>WHO IS THE MOTHER IN LAW OF *</pattern><template>QUERY:mother_in_law:<star/></template></category>
+<category><pattern>WHO IS * MOTHER IN LAW</pattern><template><srai>WHO IS THE MOTHER IN LAW OF <star/></srai></template></category>
+<category><pattern>* KI SAAS KAUN HAI</pattern><template><srai>WHO IS THE MOTHER IN LAW OF <star/></srai></template></category>
+<category><pattern>* MOTHER IN LAW</pattern><template><srai>WHO IS THE MOTHER IN LAW OF <star/></srai></template></category>
+<category><pattern>WHO * MOTHER IN LAW</pattern><template><srai>WHO IS THE MOTHER IN LAW OF <star/></srai></template></category>
+<category><pattern>WHO * MOTHER IN LAW *</pattern><template><srai>WHO IS THE MOTHER IN LAW OF <star index="2"/></srai></template></category>
+<category><pattern>* SAAS</pattern><template><srai>WHO IS THE MOTHER IN LAW OF <star/></srai></template></category>
+<category><pattern>* SAAS *</pattern><template><srai>WHO IS THE MOTHER IN LAW OF <star index="1"/></srai></template></category>
+
+<category><pattern>WHO IS THE BROTHER IN LAW OF *</pattern><template>QUERY:brother_in_law:<star/></template></category>
+<category><pattern>* KA SAALA KAUN HAI</pattern><template><srai>WHO IS THE BROTHER IN LAW OF <star/></srai></template></category>
+<category><pattern>* BROTHER IN LAW</pattern><template><srai>WHO IS THE BROTHER IN LAW OF <star/></srai></template></category>
+<category><pattern>WHO * BROTHER IN LAW</pattern><template><srai>WHO IS THE BROTHER IN LAW OF <star/></srai></template></category>
+<category><pattern>WHO * BROTHER IN LAW *</pattern><template><srai>WHO IS THE BROTHER IN LAW OF <star index="2"/></srai></template></category>
+<category><pattern>* SAALA</pattern><template><srai>WHO IS THE BROTHER IN LAW OF <star/></srai></template></category>
+<category><pattern>* SAALA *</pattern><template><srai>WHO IS THE BROTHER IN LAW OF <star index="1"/></srai></template></category>
+
+<category><pattern>WHO IS THE SISTER IN LAW OF *</pattern><template>QUERY:sister_in_law:<star/></template></category>
+<category><pattern>* KI SAALI KAUN HAI</pattern><template><srai>WHO IS THE SISTER IN LAW OF <star/></srai></template></category>
+<category><pattern>* SISTER IN LAW</pattern><template><srai>WHO IS THE SISTER IN LAW OF <star/></srai></template></category>
+<category><pattern>WHO * SISTER IN LAW</pattern><template><srai>WHO IS THE SISTER IN LAW OF <star/></srai></template></category>
+<category><pattern>WHO * SISTER IN LAW *</pattern><template><srai>WHO IS THE SISTER IN LAW OF <star index="2"/></srai></template></category>
+<category><pattern>* SAALI</pattern><template><srai>WHO IS THE SISTER IN LAW OF <star/></srai></template></category>
+<category><pattern>* SAALI *</pattern><template><srai>WHO IS THE SISTER IN LAW OF <star index="1"/></srai></template></category>
+
+<!-- ==========================================
+     DOB, AGE, CITY, PROFESSION (40+ Covered)
+     ========================================== -->
+<category><pattern>WHEN WAS * BORN</pattern><template>QUERY:dob:<star/></template></category>
+<category><pattern>WHAT IS * DOB</pattern><template><srai>WHEN WAS <star/> BORN</srai></template></category>
+<category><pattern>* KAB PAIDA HUA</pattern><template><srai>WHEN WAS <star/> BORN</srai></template></category>
+<category><pattern>* KAB PAIDA HUI</pattern><template><srai>WHEN WAS <star/> BORN</srai></template></category>
+<category><pattern>* BORN</pattern><template><srai>WHEN WAS <star/> BORN</srai></template></category>
+<category><pattern>BORN *</pattern><template><srai>WHEN WAS <star/> BORN</srai></template></category>
+<category><pattern>* DOB</pattern><template><srai>WHEN WAS <star/> BORN</srai></template></category>
+<category><pattern>WHEN * BORN</pattern><template><srai>WHEN WAS <star/> BORN</srai></template></category>
+<category><pattern>WHEN * BORN *</pattern><template><srai>WHEN WAS <star index="2"/> BORN</srai></template></category>
+<category><pattern>* DOB *</pattern><template><srai>WHEN WAS <star index="1"/> BORN</srai></template></category>
+
+<category><pattern>HOW OLD IS *</pattern><template>QUERY:age:<star/></template></category>
+<category><pattern>WHAT IS * AGE</pattern><template><srai>HOW OLD IS <star/></srai></template></category>
+<category><pattern>* KI AGE KYA HAI</pattern><template><srai>HOW OLD IS <star/></srai></template></category>
+<category><pattern>* KITNE SAAL KA HAI</pattern><template><srai>HOW OLD IS <star/></srai></template></category>
+<category><pattern>* AGE</pattern><template><srai>HOW OLD IS <star/></srai></template></category>
+<category><pattern>AGE *</pattern><template><srai>HOW OLD IS <star/></srai></template></category>
+<category><pattern>HOW OLD *</pattern><template><srai>HOW OLD IS <star/></srai></template></category>
+<category><pattern>HOW OLD * *</pattern><template><srai>HOW OLD IS <star index="2"/></srai></template></category>
+<category><pattern>* AGE *</pattern><template><srai>HOW OLD IS <star index="1"/></srai></template></category>
+
+<category><pattern>WHERE DOES * LIVE</pattern><template>QUERY:city:<star/></template></category>
+<category><pattern>WHAT IS * CITY</pattern><template><srai>WHERE DOES * LIVE</srai></template></category>
+<category><pattern>* KAHAN REHTA HAI</pattern><template><srai>WHERE DOES * LIVE</srai></template></category>
+<category><pattern>* KAHAN REHTI HAI</pattern><template><srai>WHERE DOES * LIVE</srai></template></category>
+<category><pattern>* KA SHEHER KYA HAI</pattern><template><srai>WHERE DOES * LIVE</srai></template></category>
+<category><pattern>* LIVE</pattern><template><srai>WHERE DOES * LIVE</srai></template></category>
+<category><pattern>* CITY</pattern><template><srai>WHERE DOES * LIVE</srai></template></category>
+<category><pattern>WHERE * LIVE</pattern><template><srai>WHERE DOES * LIVE</srai></template></category>
+<category><pattern>WHERE * LIVE *</template><template><srai>WHERE DOES <star index="2"/> LIVE</srai></template></category>
+<category><pattern>* CITY *</pattern><template><srai>WHERE DOES <star index="1"/> LIVE</srai></template></category>
+
+<category><pattern>WHO LIVES IN THE SAME CITY AS *</pattern><template>QUERY:same_city:<star/></template></category>
+<category><pattern>SAME CITY AS *</pattern><template><srai>WHO LIVES IN THE SAME CITY AS *</srai></template></category>
+<category><pattern>WHO * SAME CITY *</template><template><srai>WHO LIVES IN THE SAME CITY AS <star index="2"/></srai></template></category>
+<category><pattern>* SAME CITY *</pattern><template><srai>WHO LIVES IN THE SAME CITY AS <star index="1"/></srai></template></category>
+
+<category><pattern>WHAT DOES * DO</pattern><template>QUERY:profession:<star/></template></category>
+<category><pattern>WHAT IS * PROFESSION</pattern><template><srai>WHAT DOES * DO</srai></template></category>
+<category><pattern>* KA PROFESSION KYA HAI</pattern><template><srai>WHAT DOES * DO</srai></template></category>
+<category><pattern>* KYA KAAM KARTA HAI</pattern><template><srai>WHAT DOES * DO</srai></template></category>
+<category><pattern>* PROFESSION</pattern><template><srai>WHAT DOES * DO</srai></template></category>
+<category><pattern>* JOB</pattern><template><srai>WHAT DOES * DO</srai></template></category>
+<category><pattern>WHAT * DO *</template><template><srai>WHAT DOES <star/> DO</srai></template></category>
+<category><pattern>* PROFESSION *</pattern><template><srai>WHAT DOES <star index="1"/> DO</srai></template></category>
+<category><pattern>* JOB *</pattern><template><srai>WHAT DOES <star index="1"/> DO</srai></template></category>
+
+<!-- ==========================================
+     YES/NO QUERIES
+     ========================================== -->
+<category><pattern>IS * FATHER OF *</pattern><template>YESNO:father:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>IS * THE FATHER OF *</pattern><template><srai>IS <star index="1"/> FATHER OF <star index="2"/></srai></template></category>
+<category><pattern>IS * MOTHER OF *</pattern><template>YESNO:mother:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>IS * THE MOTHER OF *</template><template><srai>IS <star index="1"/> MOTHER OF <star index="2"/></srai></template></category>
+<category><pattern>IS * BROTHER OF *</pattern><template>YESNO:brother:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>IS * THE BROTHER OF *</pattern><template><srai>IS <star index="1"/> BROTHER OF <star index="2"/></srai></template></category>
+<category><pattern>IS * SISTER OF *</pattern><template>YESNO:sister:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>IS * THE SISTER OF *</template><template><srai>IS <star index="1"/> SISTER OF <star index="2"/></srai></template></category>
+<category><pattern>ARE * AND * SIBLINGS</pattern><template>YESNO:sibling:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>ARE * AND * MARRIED</pattern><template>YESNO:married:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>IS * MARRIED</pattern><template>YESNO:is_married:<star/></template></category>
+<category><pattern>IS * OLDER THAN *</pattern><template>YESNO:older_than:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>IS * GRANDPARENT OF *</pattern><template>YESNO:grandparent:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>IS * ANCESTOR OF *</pattern><template>YESNO:ancestor:<star index="1"/>:<star index="2"/></template></category>
+<!-- Roman Urdu Yes/No -->
+<category><pattern>KYA * BAAP HAI * KA</pattern><template><srai>IS <star index="1"/> FATHER OF <star index="2"/></srai></template></category>
+<category><pattern>KYA * AMMI HAI * KI</pattern><template><srai>IS <star index="1"/> MOTHER OF <star index="2"/></srai></template></category>
+<category><pattern>KYA * BHAI HAI * KA</pattern><template><srai>IS <star index="1"/> BROTHER OF <star index="2"/></srai></template></category>
+<category><pattern>KYA * BEHEN HAI * KI</pattern><template><srai>IS <star index="1"/> SISTER OF <star index="2"/></srai></template></category>
+<category><pattern>KYA * SHADI SHUDA HAI</pattern><template><srai>IS <star/> MARRIED</srai></template></category>
+
+<!-- ==========================================
+     LIST ALL QUERIES
+     ========================================== -->
+<category><pattern>LIST ALL MALES</pattern><template>QUERY:male:all</template></category>
+<category><pattern>SHOW ALL MALES</pattern><template><srai>LIST ALL MALES</srai></template></category>
+<category><pattern>WHO ARE ALL THE MALES</pattern><template><srai>LIST ALL MALES</srai></template></category>
+<category><pattern>LIST ALL FEMALES</pattern><template>QUERY:female:all</template></category>
+<category><pattern>SHOW ALL FEMALES</pattern><template><srai>LIST ALL FEMALES</srai></template></category>
+<category><pattern>WHO ARE ALL THE FEMALES</pattern><template><srai>LIST ALL FEMALES</srai></template></category>
+<category><pattern>LIST ALL MARRIED</pattern><template>QUERY:married:all</template></category>
+<category><pattern>SHOW ALL MARRIED</pattern><template><srai>LIST ALL MARRIED</srai></template></category>
+<!-- Roman Urdu Lists -->
+<category><pattern>SAB MARDON KE NAAM BATAO</pattern><template><srai>LIST ALL MALES</srai></template></category>
+<category><pattern>SAB AURTON KE NAAM BATAO</pattern><template><srai>LIST ALL FEMALES</srai></template></category>
+<category><pattern>SAB SHADI SHUDA LOGON KE NAAM BATAO</pattern><template><srai>LIST ALL MARRIED</srai></template></category>
+
+<!-- ==========================================
+     DEFAULT / FALLBACK
+     ========================================== -->
+<category>
+    <pattern>*</pattern>
+    <template>Sorry, I did not understand that. Try asking about family relationships like father, mother, siblings, grandparents, city, profession, or date of birth.</template>
+</category>
+
+</aiml>

@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- ==========================================
+     GREETINGS & CORE CONVERSATION
+     ========================================== -->
+<category>
+    <pattern>HI</pattern>
+    <template>Hello! I am the Family Knowledge Base assistant. Ask me about any family member or relationship in English or Roman Urdu!</template>
+</category>
+<category>
+    <pattern>HELLO</pattern>
+    <template><srai>HI</srai></template>
+</category>
+<category>
+    <pattern>HI THERE</pattern>
+    <template><srai>HI</srai></template>
+</category>
+<category>
+    <pattern>HEY</pattern>
+    <template><srai>HI</srai></template>
+</category>
+<category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! Come back anytime.</template>
+</category>
+<category>
+    <pattern>EXIT</pattern>
+    <template>Goodbye!</template>
+</category>
+
+<!-- ==========================================
+     FATHER QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO IS FATHER OF *</pattern>
+    <template>QUERY:father:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE FATHER OF *</pattern>
+    <template><srai>WHO IS FATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>FIND FATHER OF *</pattern>
+    <template><srai>WHO IS FATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHOS THE DAD OF *</pattern>
+    <template><srai>WHO IS FATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHO IS DAD OF *</pattern>
+    <template><srai>WHO IS FATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>TELL ME THE FATHER OF *</pattern>
+    <template><srai>WHO IS FATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KA BAAP KAUN HAI</pattern>
+    <template><srai>WHO IS FATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KA WALID KAUN HAI</pattern>
+    <template><srai>WHO IS FATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>KAUN HAI * KA WALID</pattern>
+    <template><srai>WHO IS FATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>KAUN HAI * KA BAAP</pattern>
+    <template><srai>WHO IS FATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* FATHER *</pattern>
+    <template><srai>WHO IS FATHER OF <star index="1"/></srai></template>
+</category>
+<category>
+    <pattern>* BAAP *</pattern>
+    <template><srai>WHO IS FATHER OF <star index="1"/></srai></template>
+</category>
+
+<!-- ==========================================
+     MOTHER QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO IS MOTHER OF *</pattern>
+    <template>QUERY:mother:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE MOTHER OF *</pattern>
+    <template><srai>WHO IS MOTHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>FIND MOTHER OF *</pattern>
+    <template><srai>WHO IS MOTHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHO IS MOM OF *</pattern>
+    <template><srai>WHO IS MOTHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHOS THE MOM OF *</pattern>
+    <template><srai>WHO IS MOTHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>TELL ME THE MOTHER OF *</pattern>
+    <template><srai>WHO IS MOTHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KI AMMI KAUN HAIN</pattern>
+    <template><srai>WHO IS MOTHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KI MAAN KAUN HAI</pattern>
+    <template><srai>WHO IS MOTHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>KAUN HAI * KI AMMI</pattern>
+    <template><srai>WHO IS MOTHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* MOTHER *</pattern>
+    <template><srai>WHO IS MOTHER OF <star index="1"/></srai></template>
+</category>
+<category>
+    <pattern>* AMMI *</pattern>
+    <template><srai>WHO IS MOTHER OF <star index="1"/></srai></template>
+</category>
+
+<!-- ==========================================
+     SIBLING QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE SIBLINGS OF *</pattern>
+    <template>QUERY:sibling:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE SIBLINGS OF *</pattern>
+    <template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>FIND SIBLINGS OF *</pattern>
+    <template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>LIST SIBLINGS OF *</pattern>
+    <template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHO IS THE SIBLING OF *</pattern>
+    <template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KE BEHEN BHAI KAUN HAIN</pattern>
+    <template><srai>WHO ARE THE SIBLINGS OF <star/></srai></template>
+</category>
+
+<!-- ==========================================
+     BROTHER QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE BROTHERS OF *</pattern>
+    <template>QUERY:brother:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE BROTHERS OF *</pattern>
+    <template><srai>WHO ARE THE BROTHERS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHO IS THE BROTHER OF *</pattern>
+    <template><srai>WHO ARE THE BROTHERS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KA BHAI KAUN HAI</pattern>
+    <template><srai>WHO ARE THE BROTHERS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KE BHAI KAUN HAIN</pattern>
+    <template><srai>WHO ARE THE BROTHERS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* BHAI *</pattern>
+    <template><srai>WHO ARE THE BROTHERS OF <star index="1"/></srai></template>
+</category>
+
+<!-- ==========================================
+     SISTER QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE SISTERS OF *</pattern>
+    <template>QUERY:sister:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE SISTERS OF *</pattern>
+    <template><srai>WHO ARE THE SISTERS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHO IS THE SISTER OF *</pattern>
+    <template><srai>WHO ARE THE SISTERS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KI BEHEN KAUN HAI</pattern>
+    <template><srai>WHO ARE THE SISTERS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KI BEHNAIN KAUN HAIN</pattern>
+    <template><srai>WHO ARE THE SISTERS OF <star/></srai></template>
+</category>
+
+<!-- ==========================================
+     GRANDPARENT QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE GRANDPARENTS OF *</pattern>
+    <template>QUERY:grandparent:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE GRANDPARENTS OF *</pattern>
+    <template><srai>WHO ARE THE GRANDPARENTS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHO IS THE GRANDFATHER OF *</pattern>
+    <template>QUERY:grandfather:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS GRANDFATHER OF *</pattern>
+    <template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHO IS THE GRANDMOTHER OF *</pattern>
+    <template>QUERY:grandmother:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS GRANDMOTHER OF *</pattern>
+    <template><srai>WHO IS THE GRANDMOTHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KA DADA KAUN HAI</pattern>
+    <template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KA NANA KAUN HAI</pattern>
+    <template><srai>WHO IS THE GRANDFATHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KI DADI KAUN HAI</pattern>
+    <template><srai>WHO IS THE GRANDMOTHER OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KI NANI KAUN HAI</pattern>
+    <template><srai>WHO IS THE GRAND grandmother OF <star/></srai></template>
+</category>
+
+<!-- ==========================================
+     COUSIN QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE COUSINS OF *</pattern>
+    <template>QUERY:cousin:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE COUSINS OF *</pattern>
+    <template><srai>WHO ARE THE COUSINS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KA COUSIN KAUN HAI</pattern>
+    <template><srai>WHO ARE THE COUSINS OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KE COUSINS KAUN HAIN</pattern>
+    <template><srai>WHO ARE THE COUSINS OF <star/></srai></template>
+</category>
+
+<!-- ==========================================
+     SPOUSE & MARRIAGE QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO IS SPOUSE OF *</pattern>
+    <template>QUERY:spouse:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE SPOUSE OF *</pattern>
+    <template><srai>WHO IS SPOUSE OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHO IS * MARRIED TO</pattern>
+    <template><srai>WHO IS SPOUSE OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHO IS THE WIFE OF *</pattern>
+    <template><srai>WHO IS SPOUSE OF <star/></srai></template>
+</category>
+<category>
+    <pattern>WHO IS THE HUSBAND OF *</pattern>
+    <template><srai>WHO IS SPOUSE OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KIS SE SHADI SHUDA HAI</pattern>
+    <template><srai>WHO IS SPOUSE OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KI BIWI KAUN HAI</pattern>
+    <template><srai>WHO IS SPOUSE OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KA SHOHAR KAUN HAI</pattern>
+    <template><srai>WHO IS SPOUSE OF <star/></srai></template>
+</category>
+
+<!-- ==========================================
+     BROTHER IN LAW QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO IS THE BROTHER IN LAW OF *</pattern>
+    <template>QUERY:brother_in_law:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS BROTHER IN LAW OF *</pattern>
+    <template><srai>WHO IS THE BROTHER IN LAW OF <star/></srai></template>
+</category>
+<category>
+    <pattern>* KA SAALA KAUN HAI</pattern>
+    <template><srai>WHO IS THE BROTHER IN LAW OF <star/></srai></template>
+</category>
+
+<!-- ==========================================
+     RESIDENCE / CITY QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHERE DOES * LIVE</pattern>
+    <template>QUERY:city:<star/></template>
+</category>
+<category>
+    <pattern>WHERE DOES * LIVES</pattern>
+    <template><srai>WHERE DOES * LIVE</srai></template>
+</category>
+<category>
+    <pattern>WHERE IS * FROM</pattern>
+    <template><srai>WHERE DOES * LIVE</srai></template>
+</category>
+<category>
+    <pattern>WHAT CITY DOES * LIVE IN</pattern>
+    <template><srai>WHERE DOES * LIVE</srai></template>
+</category>
+<category>
+    <pattern>WHAT CITY DOES * LIVES IN</pattern>
+    <template><srai>WHERE DOES * LIVE</srai></template>
+</category>
+<category>
+    <pattern>WHAT IS * CITY</pattern>
+    <template><srai>WHERE DOES * LIVE</srai></template>
+</category>
+<category>
+    <pattern>* KAHAN REHTA HAI</pattern>
+    <template><srai>WHERE DOES * LIVE</srai></template>
+</category>
+<category>
+    <pattern>* KAHAN REHTI HAI</pattern>
+    <template><srai>WHERE DOES * LIVE</srai></template>
+</category>
+<category>
+    <pattern>* LIVE *</pattern>
+    <template><srai>WHERE DOES <star index="1"/> LIVE</srai></template>
+</category>
+<category>
+    <pattern>* LIVES *</pattern>
+    <template><srai>WHERE DOES <star index="1"/> LIVE</srai></template>
+</category>
+<category>
+    <pattern>* REHTA *</pattern>
+    <template><srai>WHERE DOES <star index="1"/> LIVE</srai></template>
+</category>
+
+<!-- ==========================================
+     ✨ NEW: PROFESSION QUERIES ✨
+     ========================================== -->
+<category>
+    <pattern>WHAT DOES * DO</pattern>
+    <template>QUERY:profession:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS * PROFESSION</pattern>
+    <template><srai>WHAT DOES * DO</srai></template>
+</category>
+<category>
+    <pattern>WHAT IS THE PROFESSION OF *</pattern>
+    <template><srai>WHAT DOES * DO</srai></template>
+</category>
+<category>
+    <pattern>WHAT IS * JOB</pattern>
+    <template><srai>WHAT DOES * DO</srai></template>
+</category>
+<category>
+    <pattern>WHAT IS THE JOB OF *</pattern>
+    <template><srai>WHAT DOES * DO</srai></template>
+</category>
+<category>
+    <pattern>* KYA KAAM KARTA HAI</pattern>
+    <template><srai>WHAT DOES * DO</srai></template>
+</category>
+<category>
+    <pattern>* KYA KAAM KARTI HAI</pattern>
+    <template><srai>WHAT DOES * DO</srai></template>
+</category>
+<category>
+    <pattern>* KA PROFESSION KYA HAI</pattern>
+    <template><srai>WHAT DOES * DO</srai></template>
+</category>
+<category>
+    <pattern>* KA JOB KYA HAI</pattern>
+    <template><srai>WHAT DOES * DO</srai></template>
+</category>
+<category>
+    <pattern>* KAAM *</pattern>
+    <template><srai>WHAT DOES <star index="1"/> DO</srai></template>
+</category>
+<category>
+    <pattern>* PROFESSION *</pattern>
+    <template><srai>WHAT DOES <star index="1"/> DO</srai></template>
+</category>
+<category>
+    <pattern>* JOB *</pattern>
+    <template><srai>WHAT DOES <star index="1"/> DO</srai></template>
+</category>
+
+<!-- ==========================================
+     ✨ NEW: DATE OF BIRTH (DOB) & AGE QUERIES ✨
+     ========================================== -->
+<category>
+    <pattern>WHEN WAS * BORN</pattern>
+    <template>QUERY:dob:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS THE DATE OF BIRTH OF *</pattern>
+    <template><srai>WHEN WAS * BORN</srai></template>
+</category>
+<category>
+    <pattern>WHAT IS * DATE OF BIRTH</pattern>
+    <template><srai>WHEN WAS * BORN</srai></template>
+</category>
+<category>
+    <pattern>WHEN IS * BIRTHDAY</pattern>
+    <template><srai>WHEN WAS * BORN</srai></template>
+</category>
+<category>
+    <pattern>WHAT IS * DOB</pattern>
+    <template><srai>WHEN WAS * BORN</srai></template>
+</category>
+<category>
+    <pattern>HOW OLD IS *</pattern>
+    <template>QUERY:age:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS THE AGE OF *</pattern>
+    <template><srai>HOW OLD IS *</srai></template>
+</category>
+<category>
+    <pattern>* KAB PAIDA HUA</pattern>
+    <template><srai>WHEN WAS * BORN</srai></template>
+</category>
+<category>
+    <pattern>* KAB PAIDA HUI</pattern>
+    <template><srai>WHEN WAS * BORN</srai></template>
+</category>
+<category>
+    <pattern>* KI DATE OF BIRTH KYA HAI</pattern>
+    <template><srai>WHEN WAS * BORN</srai></template>
+</category>
+<category>
+    <pattern>* KA DOB KYA HAI</pattern>
+    <template><srai>WHEN WAS * BORN</srai></template>
+</category>
+<category>
+    <pattern>* BORN *</pattern>
+    <template><srai>WHEN WAS <star index="1"/> BORN</srai></template>
+</category>
+<category>
+    <pattern>* DOB *</pattern>
+    <template><srai>WHEN WAS <star index="1"/> BORN</srai></template>
+</category>
+<category>
+    <pattern>* PAIDA *</pattern>
+    <template><srai>WHEN WAS <star index="1"/> BORN</srai></template>
+</category>
+
+<!-- ==========================================
+     ADVANCED ANALYTICS & INFERENCE
+     ========================================== -->
+<category>
+    <pattern>IDENTIFY THE MAIN FAMILY HUB CITY</pattern>
+    <template>QUERY:family_hub:all</template>
+</category>
+<category>
+    <pattern>WHAT CITY DOES THE FAMILY LIVE IN</pattern>
+    <template>QUERY:family_hub:all</template>
+</category>
+<category>
+    <pattern>RECOMMEND MEETUP FOR *</pattern>
+    <template>QUERY:recommend_meetup:<star/></template>
+</category>
+<category>
+    <pattern>RECOMMEND MEETUP SETUP WITH *</pattern>
+    <template>QUERY:recommend_meetup:<star/></template>
+</category>
+
+<!-- ==========================================
+     DEFAULT FALLBACK
+     ========================================== -->
+<category>
+    <pattern>*</pattern>
+    <template>Sorry, I did not understand that query format. Try asking naturally in English or Roman Urdu about relationships, profession, city location hubs, age, or meetup recommendations.</template>
+</category>
+
+</aiml>

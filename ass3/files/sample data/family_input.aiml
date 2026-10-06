@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- ==========================================
+     GREETINGS
+     ========================================== -->
+<category>
+    <pattern>HI</pattern>
+    <template>Hello! I can help you add family members to the knowledge base. Try: "Add male Ali" or "Ali is parent of Omar"</template>
+</category>
+<category>
+    <pattern>HELLO</pattern>
+    <template>Hi! Tell me about your family. You can say things like "Add female Sara" or "Ali was born in 1978".</template>
+</category>
+<category>
+    <pattern>HELP</pattern>
+    <template>You can say:
+- "Add male [name]" or "Add female [name]"
+- "[name] is parent of [name]"
+- "[name] is married to [name]"
+- "[name] was born in [year]"
+- "[name] lives in [city]"
+- "[name] works as [profession]"
+- "Show facts" to see what has been added
+- "Save facts" to save everything to the knowledge base</template>
+</category>
+
+<!-- ==========================================
+     ADDING GENDER FACTS
+     ========================================== -->
+<category>
+    <pattern>ADD MALE *</pattern>
+    <template>ADDFACT:male:<star/></template>
+</category>
+<category>
+    <pattern>ADD A MALE *</pattern>
+    <template>ADDFACT:male:<star/></template>
+</category>
+<category>
+    <pattern>* IS MALE</pattern>
+    <template>ADDFACT:male:<star/></template>
+</category>
+<category>
+    <pattern>* IS A MALE</pattern>
+    <template>ADDFACT:male:<star/></template>
+</category>
+<category>
+    <pattern>* IS GAY</pattern>
+    <template>ADDFACT:orientation:<star/>:gay</template>
+</category>
+<category>
+    <pattern>ADD FEMALE *</pattern>
+    <template>ADDFACT:female:<star/></template>
+</category>
+<category>
+    <pattern>ADD A FEMALE *</pattern>
+    <template>ADDFACT:female:<star/></template>
+</category>
+<category>
+    <pattern>* IS FEMALE</pattern>
+    <template>ADDFACT:female:<star/></template>
+</category>
+<category>
+    <pattern>* IS A FEMALE</pattern>
+    <template>ADDFACT:female:<star/></template>
+</category>
+<category>
+    <pattern>ADD PERSON * GENDER MALE</pattern>
+    <template>ADDFACT:male:<star/></template>
+</category>
+<category>
+    <pattern>ADD PERSON * GENDER FEMALE</pattern>
+    <template>ADDFACT:female:<star/></template>
+</category>
+<category>
+    <pattern>* IS A BOY</pattern>
+    <template>ADDFACT:male:<star/></template>
+</category>
+<category>
+    <pattern>* IS A GIRL</pattern>
+    <template>ADDFACT:female:<star/></template>
+</category>
+<category>
+    <pattern>* IS A MAN</pattern>
+    <template>ADDFACT:male:<star/></template>
+</category>
+<category>
+    <pattern>* IS A WOMAN</pattern>
+    <template>ADDFACT:female:<star/></template>
+</category>
+
+<!-- ==========================================
+     ADDING PARENT FACTS
+     ========================================== -->
+<category>
+    <pattern>* IS PARENT OF *</pattern>
+    <template>ADDFACT:parent:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS THE PARENT OF *</pattern>
+    <template>ADDFACT:parent:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS FATHER OF *</pattern>
+    <template>ADDFACT:parent:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS THE FATHER OF *</pattern>
+    <template>ADDFACT:parent:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS MOTHER OF *</pattern>
+    <template>ADDFACT:parent:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS THE MOTHER OF *</pattern>
+    <template>ADDFACT:parent:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* HAS A CHILD NAMED *</pattern>
+    <template>ADDFACT:parent:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* HAS CHILD *</pattern>
+    <template>ADDFACT:parent:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>ADD PARENT * OF *</pattern>
+    <template>ADDFACT:parent:<star index="1"/>:<star index="2"/></template>
+</category>
+
+<!-- ==========================================
+     ADDING MARRIAGE FACTS
+     ========================================== -->
+<category>
+    <pattern>* IS MARRIED TO *</pattern>
+    <template>ADDFACT:married:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* AND * ARE MARRIED</pattern>
+    <template>ADDFACT:married:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* MARRIED *</pattern>
+    <template>ADDFACT:married:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>ADD MARRIAGE * AND *</pattern>
+    <template>ADDFACT:married:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS THE HUSBAND OF *</pattern>
+    <template>ADDFACT:married:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS THE WIFE OF *</pattern>
+    <template>ADDFACT:married:<star index="2"/>:<star index="1"/></template>
+</category>
+
+<!-- ==========================================
+     ADDING DOB FACTS
+     ========================================== -->
+<category>
+    <pattern>* WAS BORN IN *</pattern>
+    <template>ADDFACT:dob:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS BORN IN *</pattern>
+    <template>ADDFACT:dob:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>DATE OF BIRTH OF * IS *</pattern>
+    <template>ADDFACT:dob:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* HAS DATE OF BIRTH *</pattern>
+    <template>ADDFACT:dob:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>ADD DOB * *</pattern>
+    <template>ADDFACT:dob:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* BIRTH YEAR IS *</pattern>
+    <template>ADDFACT:dob:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* WAS BORN *</pattern>
+    <template>ADDFACT:dob:<star index="1"/>:<star index="2"/></template>
+</category>
+
+<!-- ==========================================
+     ADDING CITY FACTS
+     ========================================== -->
+<category>
+    <pattern>* LIVES IN *</pattern>
+    <template>ADDFACT:city:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS FROM *</pattern>
+    <template>ADDFACT:city:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* RESIDES IN *</pattern>
+    <template>ADDFACT:city:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* STAYS IN *</pattern>
+    <template>ADDFACT:city:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS BASED IN *</pattern>
+    <template>ADDFACT:city:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>ADD CITY * *</pattern>
+    <template>ADDFACT:city:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* CITY IS *</pattern>
+    <template>ADDFACT:city:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* LOCATION IS *</pattern>
+    <template>ADDFACT:city:<star index="1"/>:<star index="2"/></template>
+</category>
+
+<!-- ==========================================
+     ADDING PROFESSION FACTS
+     ========================================== -->
+<category>
+    <pattern>* WORKS AS *</pattern>
+    <template>ADDFACT:profession:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS A *</pattern>
+    <template>ADDFACT:profession:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS AN *</pattern>
+    <template>ADDFACT:profession:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* PROFESSION IS *</pattern>
+    <template>ADDFACT:profession:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* JOB IS *</pattern>
+    <template>ADDFACT:profession:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>ADD PROFESSION * *</pattern>
+    <template>ADDFACT:profession:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* WORKS AS A *</pattern>
+    <template>ADDFACT:profession:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>* IS EMPLOYED AS *</pattern>
+    <template>ADDFACT:profession:<star index="1"/>:<star index="2"/></template>
+</category>
+
+<!-- ==========================================
+     CONTROL COMMANDS
+     ========================================== -->
+<category>
+    <pattern>SHOW FACTS</pattern>
+    <template>CONTROL:show</template>
+</category>
+<category>
+    <pattern>SHOW ALL FACTS</pattern>
+    <template>CONTROL:show</template>
+</category>
+<category>
+    <pattern>LIST FACTS</pattern>
+    <template>CONTROL:show</template>
+</category>
+<category>
+    <pattern>SAVE FACTS</pattern>
+    <template>CONTROL:save</template>
+</category>
+<category>
+    <pattern>SAVE</pattern>
+    <template>CONTROL:save</template>
+</category>
+<category>
+    <pattern>COMMIT FACTS</pattern>
+    <template>CONTROL:save</template>
+</category>
+<category>
+    <pattern>CLEAR FACTS</pattern>
+    <template>CONTROL:clear</template>
+</category>
+<category>
+    <pattern>RESET</pattern>
+    <template>CONTROL:clear</template>
+</category>
+<category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! Your facts have been saved to the knowledge base.</template>
+</category>
+<category>
+    <pattern>EXIT</pattern>
+    <template>Goodbye!</template>
+</category>
+
+<!-- ==========================================
+     DEFAULT
+     ========================================== -->
+<category>
+    <pattern>*</pattern>
+    <template>I did not understand that. Type HELP to see what I can do.</template>
+</category>
+
+</aiml>

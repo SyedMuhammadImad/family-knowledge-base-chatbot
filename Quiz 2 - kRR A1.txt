@@ -1,0 +1,107 @@
+Quiz 2 - kRR A1
+---------------
+1. Every student who studies hard passes the exam.
+2. Some doctors are researchers.
+3. All cats are animals, and some animals are not pets.
+4. If a person is a parent, then they have at least one child.
+5. No student likes every subject.
+6. There exists a teacher who teaches all students.
+7. If a number is even, then it is divisible by 2.
+8. Some employees work in every department.
+9. All birds can fly, except penguins.
+10. A person is happy if they have a friend who is honest.
+
+
+================================================
+solution 
+================================================
+
+
+
+1. Every student who studies hard passes the exam.
+
+FOL:
+∀x [(Student(x) ∧ StudiesHard(x)) → PassesExam(x)]
+
+Prolog:
+passes_exam(X) :- student(X), studies_hard(X).
+
+2. Some doctors are researchers.
+
+FOL:
+∃x [Doctor(x) ∧ Researcher(x)]
+
+Prolog:
+doctor(X), researcher(X).
+(or a fact like: researcher(john) :- doctor(john). if instantiating)
+
+3. All cats are animals, and some animals are not pets.
+
+FOL:
+∀x [Cat(x) → Animal(x)]
+∧ ∃x [Animal(x) ∧ ¬Pet(x)]
+
+Prolog:
+animal(X) :- cat(X).
+animal(X), + pet(X).
+
+4. If a person is a parent, then they have at least one child.
+
+FOL:
+∀x [Parent(x) → ∃y Child(y, x)]
+
+Prolog:
+has_child(X) :- parent(X), child(Y, X).
+
+5. No student likes every subject.
+
+FOL:
+∀x [Student(x) → ¬∀y (Subject(y) → Likes(x, y))]
+
+(equivalently: ∀x [Student(x) → ∃y (Subject(y) ∧ ¬Likes(x,y))])
+
+Prolog:
+:- student(X), forall(subject(Y), likes(X,Y)).
+(constraint form)
+
+6. There exists a teacher who teaches all students.
+
+FOL:
+∃x [Teacher(x) ∧ ∀y (Student(y) → Teaches(x,y))]
+
+Prolog:
+teacher(X), forall(student(Y), teaches(X,Y)).
+
+7. If a number is even, then it is divisible by 2.
+
+FOL:
+∀x [Even(x) → DivisibleBy(x,2)]
+
+Prolog:
+divisible_by(X,2) :- even(X).
+
+8. Some employees work in every department.
+
+FOL:
+∃x [Employee(x) ∧ ∀y (Department(y) → WorksIn(x,y))]
+
+Prolog:
+employee(X), forall(department(Y), works_in(X,Y)).
+
+9. All birds can fly, except penguins.
+
+FOL:
+∀x [(Bird(x) ∧ ¬Penguin(x)) → CanFly(x)]
+∧ ∀x [Penguin(x) → Bird(x)]
+
+Prolog:
+can_fly(X) :- bird(X), + penguin(X).
+bird(X) :- penguin(X).
+
+10. A person is happy if they have a friend who is honest.
+
+FOL:
+∀x [(Person(x) ∧ ∃y (Friend(x,y) ∧ Honest(y))) → Happy(x)]
+
+Prolog:
+happy(X) :- person(X), friend(X,Y), honest(Y).

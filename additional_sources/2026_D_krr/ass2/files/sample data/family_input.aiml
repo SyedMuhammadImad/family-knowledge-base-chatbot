@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+    <pattern>HI</pattern>
+    <template>Hello! I am ready to build your knowledge base. Give me facts in English or Roman Urdu, or shorthand commands.</template>
+</category>
+<category>
+    <pattern>HELLO</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
+<category><pattern>ADD MALE *</pattern><template>ADDFACT:male:<star/></template></category>
+<category><pattern>ADD A MALE *</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>* IS MALE</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>* IS A MALE</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>* IS A BOY</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>* IS A MAN</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>* LARKA HAI</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>* MARD HAI</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>ADD LARKA *</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>MALE *</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>* MALE</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>LARKA *</pattern><template><srai>ADD MALE <star/></srai></template></category>
+<category><pattern>* LARKA</pattern><template><srai>ADD MALE <star/></srai></template></category>
+
+<category><pattern>ADD FEMALE *</pattern><template>ADDFACT:female:<star/></template></category>
+<category><pattern>ADD A FEMALE *</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>* IS FEMALE</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>* IS A FEMALE</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>* IS A GIRL</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>* IS A WOMAN</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>* LARKI HAI</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>* AURAT HAI</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>ADD LARKI *</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>FEMALE *</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>* FEMALE</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>LARKI *</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+<category><pattern>* LARKI</pattern><template><srai>ADD FEMALE <star/></srai></template></category>
+
+<category><pattern>* IS PARENT OF *</pattern><template>ADDFACT:parent:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>* IS THE PARENT OF *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>ADD PARENT * FOR *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* IS FATHER OF *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* IS MOTHER OF *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* IS DAD OF *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* IS MOM OF *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* * KA BAAP HAI</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* * KI AMMI HAI</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* * KA WALID HAI</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* * KA PARENT HAI</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>PARENT * *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* PARENT *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* FATHER *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* MOTHER *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* BAAP *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+<category><pattern>* AMMI *</pattern><template><srai><star index="1"/> IS PARENT OF <star index="2"/></srai></template></category>
+
+<category><pattern>* IS MARRIED TO *</pattern><template>ADDFACT:married:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>MARRIED * AND *</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>ADD MARRIAGE * AND *</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>* MARRIED *</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>* IS WIFE OF *</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>* IS HUSBAND OF *</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>* KI SHADI * SE HUI HAI</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>* AUR * SHADI SHUDA HAIN</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>* * KI BIWI HAI</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>* * KA SHOHAR HAI</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>MARRIED * *</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>* MARRIED *</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>* WIFE *</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+<category><pattern>* SHADI *</pattern><template><srai><star index="1"/> IS MARRIED TO <star index="2"/></srai></template></category>
+
+<category><pattern>* WAS BORN IN *</pattern><template>ADDFACT:dob:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>ADD DOB * YEAR *</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+<category><pattern>* DOB IS *</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+<category><pattern>* BIRTH YEAR IS *</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+<category><pattern>* * MEIN PAIDA HUA</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+<category><pattern>* * MEIN PAIDA HUI</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+<category><pattern>* KI DATE OF BIRTH * HAI</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+<category><pattern>* KA DOB * HAI</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+<category><pattern>BORN * *</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+<category><pattern>* BORN *</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+<category><pattern>* DOB *</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+<category><pattern>* PAIDA *</pattern><template><srai><star index="1"/> WAS BORN IN <star index="2"/></srai></template></category>
+
+<category><pattern>* LIVES IN *</pattern><template>ADDFACT:city:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>* IS FROM *</pattern><template><srai><star index="1"/> LIVES IN <star index="2"/></srai></template></category>
+<category><pattern>ADD CITY * FOR *</pattern><template><srai><star index="2"/> LIVES IN <star index="1"/></srai></template></category>
+<category><pattern>* RESIDES IN *</pattern><template><srai><star index="1"/> LIVES IN <star index="2"/></srai></template></category>
+<category><pattern>* * MEIN REHTA HAI</pattern><template><srai><star index="1"/> LIVES IN <star index="2"/></srai></template></category>
+<category><pattern>* * MEIN REHTI HAI</pattern><template><srai><star index="1"/> LIVES IN <star index="2"/></srai></template></category>
+<category><pattern>* KA SHEHER * HAI</pattern><template><srai><star index="1"/> LIVES IN <star index="2"/></srai></template></category>
+<category><pattern>LIVE * *</pattern><template><srai><star index="1"/> LIVES IN <star index="2"/></srai></template></category>
+<category><pattern>* LIVE *</pattern><template><srai><star index="1"/> LIVES IN <star index="2"/></srai></template></category>
+<category><pattern>* CITY *</pattern><template><srai><star index="1"/> LIVES IN <star index="2"/></srai></template></category>
+<category><pattern>* REHTA *</pattern><template><srai><star index="1"/> LIVES IN <star index="2"/></srai></template></category>
+
+<category><pattern>* WORKS AS A *</pattern><template>ADDFACT:profession:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>* WORKS AS AN *</pattern><template><srai><star index="1"/> WORKS AS A *</srai></template></category>
+<category><pattern>* IS A * BY PROFESSION</pattern><template><srai><star index="1"/> WORKS AS A *</srai></template></category>
+<category><pattern>* IS AN * BY PROFESSION</pattern><template><srai><star index="1"/> WORKS AS A *</srai></template></category>
+<category><pattern>* JOB IS *</pattern><template>ADDFACT:profession:<star index="1"/>:<star index="2"/></template></category>
+<category><pattern>* PROFESSION IS *</pattern><template><srai><star index="1"/> JOB IS <star index="2"/></srai></template></category>
+<category><pattern>* * KAAM KARTA HAI</pattern><template><srai><star index="1"/> JOB IS <star index="2"/></srai></template></category>
+<category><pattern>* * NAUKRI KARTA HAI</pattern><template><srai> <star index="1"/> JOB IS <star index="2"/></srai></template></category>
+<category><pattern>* KA PROFESSION * HAI</pattern><template><srai><star index="1"/> JOB IS <star index="2"/></srai></template></category>
+<category><pattern>* KA KAAM * HAI</pattern><template><srai><star index="1"/> JOB IS <star index="2"/></srai></template></category>
+<category><pattern>JOB * *</pattern><template><srai><star index="1"/> JOB IS <star index="2"/></srai></template></category>
+<category><pattern>* JOB *</pattern><template><srai><star index="1"/> JOB IS <star index="2"/></srai></template></category>
+<category><pattern>* PROFESSION *</pattern><template><srai><star index="1"/> JOB IS <star index="2"/></srai></template></category>
+<category><pattern>* KAAM *</pattern><template><srai><star index="1"/> JOB IS <star index="2"/></srai></template></category>
+
+<category><pattern>SHOW FACTS</pattern><template>CONTROL:show</template></category>
+<category><pattern>SHOW ALL FACTS</pattern><template>CONTROL:show</template></category>
+<category><pattern>SAVE FACTS</pattern><template>CONTROL:save</template></category>
+<category><pattern>SAVE</pattern><template>CONTROL:save</template></category>
+<category><pattern>COMMIT FACTS</pattern><template>CONTROL:save</template></category>
+<category><pattern>CLEAR FACTS</pattern><template>CONTROL:clear</template></category>
+<category><pattern>RESET</pattern><template>CONTROL:clear</template></category>
+
+<category>
+    <pattern>*</pattern>
+    <template>Unknown input format. Please specify facts clearly (e.g., 'Add male Ali', 'Ali lives in Lahore', 'Ali larka hai').</template>
+</category>
+
+</aiml>

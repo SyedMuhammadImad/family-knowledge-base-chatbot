@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- ==========================================
+     GREETINGS
+     ========================================== -->
+<category>
+    <pattern>HI</pattern>
+    <template>Hello! I am the Family Knowledge Base assistant. Ask me about any family member!</template>
+</category>
+<category>
+    <pattern>HELLO</pattern>
+    <template>Hi there! Ask me about family relationships, birthdays, cities, or professions.</template>
+</category>
+<category>
+    <pattern>HI THERE</pattern>
+    <template>Hello! How can I help you with the family knowledge base?</template>
+</category>
+<category>
+    <pattern>HEY</pattern>
+    <template>Hey! Ask me anything about the family.</template>
+</category>
+<category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! Come back anytime.</template>
+</category>
+<category>
+    <pattern>EXIT</pattern>
+    <template>Goodbye!</template>
+</category>
+
+<!-- ==========================================
+     FATHER QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO IS FATHER OF *</pattern>
+    <template>QUERY:father:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE FATHER OF *</pattern>
+    <template>QUERY:father:<star/></template>
+</category>
+<category>
+    <pattern>FIND FATHER OF *</pattern>
+    <template>QUERY:father:<star/></template>
+</category>
+<category>
+    <pattern>WHOS THE DAD OF *</pattern>
+    <template>QUERY:father:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS DAD OF *</pattern>
+    <template>QUERY:father:<star/></template>
+</category>
+<category>
+    <pattern>TELL ME THE FATHER OF *</pattern>
+    <template>QUERY:father:<star/></template>
+</category>
+
+<!-- ==========================================
+     MOTHER QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO IS MOTHER OF *</pattern>
+    <template>QUERY:mother:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE MOTHER OF *</pattern>
+    <template>QUERY:mother:<star/></template>
+</category>
+<category>
+    <pattern>FIND MOTHER OF *</pattern>
+    <template>QUERY:mother:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS MOM OF *</pattern>
+    <template>QUERY:mother:<star/></template>
+</category>
+<category>
+    <pattern>WHOS THE MOM OF *</pattern>
+    <template>QUERY:mother:<star/></template>
+</category>
+<category>
+    <pattern>TELL ME THE MOTHER OF *</pattern>
+    <template>QUERY:mother:<star/></template>
+</category>
+
+<!-- ==========================================
+     SIBLING QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE SIBLINGS OF *</pattern>
+    <template>QUERY:sibling:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE SIBLINGS OF *</pattern>
+    <template>QUERY:sibling:<star/></template>
+</category>
+<category>
+    <pattern>FIND SIBLINGS OF *</pattern>
+    <template>QUERY:sibling:<star/></template>
+</category>
+<category>
+    <pattern>LIST SIBLINGS OF *</pattern>
+    <template>QUERY:sibling:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE SIBLING OF *</pattern>
+    <template>QUERY:sibling:<star/></template>
+</category>
+
+<!-- ==========================================
+     BROTHER QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE BROTHERS OF *</pattern>
+    <template>QUERY:brother:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE BROTHERS OF *</pattern>
+    <template>QUERY:brother:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE BROTHER OF *</pattern>
+    <template>QUERY:brother:<star/></template>
+</category>
+<category>
+    <pattern>FIND BROTHERS OF *</pattern>
+    <template>QUERY:brother:<star/></template>
+</category>
+
+<!-- ==========================================
+     SISTER QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE SISTERS OF *</pattern>
+    <template>QUERY:sister:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE SISTERS OF *</pattern>
+    <template>QUERY:sister:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE SISTER OF *</pattern>
+    <template>QUERY:sister:<star/></template>
+</category>
+<category>
+    <pattern>FIND SISTERS OF *</pattern>
+    <template>QUERY:sister:<star/></template>
+</category>
+
+<!-- ==========================================
+     CHILDREN QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE CHILDREN OF *</pattern>
+    <template>QUERY:child:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE CHILDREN OF *</pattern>
+    <template>QUERY:child:<star/></template>
+</category>
+<category>
+    <pattern>SHOW ME CHILDREN OF *</pattern>
+    <template>QUERY:child:<star/></template>
+</category>
+<category>
+    <pattern>LIST CHILDREN OF *</pattern>
+    <template>QUERY:child:<star/></template>
+</category>
+<category>
+    <pattern>FIND CHILDREN OF *</pattern>
+    <template>QUERY:child:<star/></template>
+</category>
+<category>
+    <pattern>WHAT ARE THE KIDS OF *</pattern>
+    <template>QUERY:child:<star/></template>
+</category>
+
+<!-- ==========================================
+     GRANDPARENT QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE GRANDPARENTS OF *</pattern>
+    <template>QUERY:grandparent:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE GRANDPARENTS OF *</pattern>
+    <template>QUERY:grandparent:<star/></template>
+</category>
+<category>
+    <pattern>FIND GRAND PARENTS OF *</pattern>
+    <template>QUERY:grandparent:<star/></template>
+</category>
+<category>
+    <pattern>FIND GRANDPARENTS OF *</pattern>
+    <template>QUERY:grandparent:<star/></template>
+</category>
+<category>
+    <pattern>SHOW GRANDPARENTS OF *</pattern>
+    <template>QUERY:grandparent:<star/></template>
+</category>
+
+<!-- ==========================================
+     UNCLE QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE UNCLES OF *</pattern>
+    <template>QUERY:uncle:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE UNCLES OF *</pattern>
+    <template>QUERY:uncle:<star/></template>
+</category>
+<category>
+    <pattern>FIND UNCLES OF *</pattern>
+    <template>QUERY:uncle:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE UNCLE OF *</pattern>
+    <template>QUERY:uncle:<star/></template>
+</category>
+
+<!-- ==========================================
+     AUNT QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE AUNTS OF *</pattern>
+    <template>QUERY:aunt:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE AUNTS OF *</pattern>
+    <template>QUERY:aunt:<star/></template>
+</category>
+<category>
+    <pattern>FIND AUNTS OF *</pattern>
+    <template>QUERY:aunt:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE AUNT OF *</pattern>
+    <template>QUERY:aunt:<star/></template>
+</category>
+
+<!-- ==========================================
+     COUSIN QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE COUSINS OF *</pattern>
+    <template>QUERY:cousin:<star/></template>
+</category>
+<category>
+    <pattern>WHO ARE COUSINS OF *</pattern>
+    <template>QUERY:cousin:<star/></template>
+</category>
+<category>
+    <pattern>FIND COUSINS OF *</pattern>
+    <template>QUERY:cousin:<star/></template>
+</category>
+
+<!-- ==========================================
+     SPOUSE QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO IS SPOUSE OF *</pattern>
+    <template>QUERY:spouse:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE SPOUSE OF *</pattern>
+    <template>QUERY:spouse:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS * MARRIED TO</pattern>
+    <template>QUERY:spouse:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE WIFE OF *</pattern>
+    <template>QUERY:spouse:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE HUSBAND OF *</pattern>
+    <template>QUERY:spouse:<star/></template>
+</category>
+
+<!-- ==========================================
+     DOB QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHEN WAS * BORN</pattern>
+    <template>QUERY:dob:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS THE DATE OF BIRTH OF *</pattern>
+    <template>QUERY:dob:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS * DATE OF BIRTH</pattern>
+    <template>QUERY:dob:<star/></template>
+</category>
+<category>
+    <pattern>WHEN IS * BIRTHDAY</pattern>
+    <template>QUERY:dob:<star/></template>
+</category>
+<category>
+    <pattern>HOW OLD IS *</pattern>
+    <template>QUERY:age:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS THE AGE OF *</pattern>
+    <template>QUERY:age:<star/></template>
+</category>
+
+<!-- ==========================================
+     CITY QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHERE DOES * LIVE</pattern>
+    <template>QUERY:city:<star/></template>
+</category>
+<category>
+    <pattern>WHERE IS * FROM</pattern>
+    <template>QUERY:city:<star/></template>
+</category>
+<category>
+    <pattern>WHAT CITY DOES * LIVE IN</pattern>
+    <template>QUERY:city:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS * CITY</pattern>
+    <template>QUERY:city:<star/></template>
+</category>
+<category>
+    <pattern>WHO LIVES IN SAME CITY AS *</pattern>
+    <template>QUERY:same_city:<star/></template>
+</category>
+<category>
+    <pattern>WHO LIVES IN THE SAME CITY AS *</pattern>
+    <template>QUERY:same_city:<star/></template>
+</category>
+
+<!-- ==========================================
+     PROFESSION QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHAT DOES * DO</pattern>
+    <template>QUERY:profession:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS * PROFESSION</pattern>
+    <template>QUERY:profession:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS THE PROFESSION OF *</pattern>
+    <template>QUERY:profession:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS * JOB</pattern>
+    <template>QUERY:profession:<star/></template>
+</category>
+<category>
+    <pattern>WHAT IS THE JOB OF *</pattern>
+    <template>QUERY:profession:<star/></template>
+</category>
+
+<!-- ==========================================
+     YES/NO QUERIES
+     ========================================== -->
+<category>
+    <pattern>IS * FATHER OF *</pattern>
+    <template>YESNO:father:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>IS * MOTHER OF *</pattern>
+    <template>YESNO:mother:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>IS * BROTHER OF *</pattern>
+    <template>YESNO:brother:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>IS * SISTER OF *</pattern>
+    <template>YESNO:sister:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>ARE * AND * SIBLINGS</pattern>
+    <template>YESNO:sibling:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>ARE * AND * MARRIED</pattern>
+    <template>YESNO:married:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>IS * MARRIED</pattern>
+    <template>YESNO:is_married:<star/></template>
+</category>
+<category>
+    <pattern>IS * OLDER THAN *</pattern>
+    <template>YESNO:older_than:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>IS * GRANDPARENT OF *</pattern>
+    <template>YESNO:grandparent:<star index="1"/>:<star index="2"/></template>
+</category>
+<category>
+    <pattern>IS * ANCESTOR OF *</pattern>
+    <template>YESNO:ancestor:<star index="1"/>:<star index="2"/></template>
+</category>
+
+<!-- ==========================================
+     LIST ALL QUERIES
+     ========================================== -->
+<category>
+    <pattern>LIST ALL MALES</pattern>
+    <template>QUERY:male:all</template>
+</category>
+<category>
+    <pattern>LIST ALL FEMALES</pattern>
+    <template>QUERY:female:all</template>
+</category>
+<category>
+    <pattern>SHOW ALL MALES</pattern>
+    <template>QUERY:male:all</template>
+</category>
+<category>
+    <pattern>SHOW ALL FEMALES</pattern>
+    <template>QUERY:female:all</template>
+</category>
+<category>
+    <pattern>LIST ALL MARRIED</pattern>
+    <template>QUERY:married:all</template>
+</category>
+<category>
+    <pattern>SHOW ALL MARRIED</pattern>
+    <template>QUERY:married:all</template>
+</category>
+<category>
+    <pattern>WHO ARE ALL THE MALES</pattern>
+    <template>QUERY:male:all</template>
+</category>
+<category>
+    <pattern>WHO ARE ALL THE FEMALES</pattern>
+    <template>QUERY:female:all</template>
+</category>
+
+<!-- ==========================================
+     IN-LAW QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO IS THE FATHER IN LAW OF *</pattern>
+    <template>QUERY:father_in_law:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS FATHER IN LAW OF *</pattern>
+    <template>QUERY:father_in_law:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE MOTHER IN LAW OF *</pattern>
+    <template>QUERY:mother_in_law:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS MOTHER IN LAW OF *</pattern>
+    <template>QUERY:mother_in_law:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE BROTHER IN LAW OF *</pattern>
+    <template>QUERY:brother_in_law:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS BROTHER IN LAW OF *</pattern>
+    <template>QUERY:brother_in_law:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE SISTER IN LAW OF *</pattern>
+    <template>QUERY:sister_in_law:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS SISTER IN LAW OF *</pattern>
+    <template>QUERY:sister_in_law:<star/></template>
+</category>
+
+<!-- ==========================================
+     ANCESTOR QUERIES
+     ========================================== -->
+<category>
+    <pattern>WHO ARE THE ANCESTORS OF *</pattern>
+    <template>QUERY:ancestor:<star/></template>
+</category>
+<category>
+    <pattern>FIND ANCESTORS OF *</pattern>
+    <template>QUERY:ancestor:<star/></template>
+</category>
+
+
+<!-- GRANDFATHER / GRANDMOTHER -->
+<category>
+    <pattern>WHO IS THE GRANDFATHER OF *</pattern>
+    <template>QUERY:grandfather:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS GRANDFATHER OF *</pattern>
+    <template>QUERY:grandfather:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS THE GRANDMOTHER OF *</pattern>
+    <template>QUERY:grandmother:<star/></template>
+</category>
+<category>
+    <pattern>WHO IS GRANDMOTHER OF *</pattern>
+    <template>QUERY:grandmother:<star/></template>
+</category>
+<category>
+    <pattern>FIND GRANDFATHER OF *</pattern>
+    <template>QUERY:grandfather:<star/></template>
+</category>
+<category>
+    <pattern>FIND GRANDMOTHER OF *</pattern>
+    <template>QUERY:grandmother:<star/></template>
+</category>
+
+<!-- ANCESTOR -->
+<category>
+    <pattern>WHO ARE ANCESTORS OF *</pattern>
+    <template>QUERY:ancestor:<star/></template>
+</category>
+
+<!-- ==========================================
+     DEFAULT
+     ========================================== -->
+<category>
+    <pattern>*</pattern>
+    <template>Sorry, I did not understand that. Try asking about family relationships like father, mother, siblings, grandparents, city, profession, or date of birth.</template>
+</category>
+
+<category>
+    <pattern>WHAT CITY DOES THE FAMILY LIVE IN</pattern>
+    <template>QUERY:family_hub:all</template>
+</category>
+
+<category>
+    <pattern>RECOMMEND MEETUP FOR *</pattern>
+    <template>QUERY:recommend_meetup:<star/></template>
+</category>
+<category>
+    <pattern>RECOMMEND MEETUP SETUP WITH *</pattern>
+    <template>QUERY:recommend_meetup:<star/></template>
+</category>
+
+</aiml>

@@ -1,0 +1,12 @@
+KRR - A2 
+Assignment 2 
+
+1. Make a copy of your unit project 1 
+2. Edit your prolog knowledgebaee and remove all the facts 
+3. Create new aiml file, having all the suitable patterns and templates 
+      to take data suitable for making facts using natural languge. 
+4. Fetch the stored data from AIML veriables into python. 
+5. Using string handlind techniques create facts from the data aquired. 
+6. Using file handling approach update the prolog knowledge base file by 
+adding the dynamically aquired facts.
+7. Use the exisiting AIML file to test and fetch teh newly updated knowledge   

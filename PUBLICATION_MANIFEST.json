@@ -1,0 +1,527 @@
+{
+  "date": "2026-10-07",
+  "title": "Family knowledge base and chatbot coursework",
+  "completion_gate_passed": true,
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "55be2674ca40f7b736e7fbcc4b0f5171814624f0847fc2e72b32f282f925cf93",
+      "bytes": 90
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5d88202b853217c723bde4ea54206901e0bb7f1e0e782347d799332a294adc6f",
+      "bytes": 421
+    },
+    {
+      "path": "app.py",
+      "sha256": "a9897c558ee4b01ae5e00a8c3ff2c2673f7953dd68c93e60eb1e57ef1af86fad",
+      "bytes": 1884
+    },
+    {
+      "path": "family_agent.py",
+      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
+      "bytes": 33900
+    },
+    {
+      "path": "KRR-A3 - class notes.txt",
+      "sha256": "80ed0b7a50853a909476f85ee5ae12ddb1528a25353aebb799820425e00af8c1",
+      "bytes": 2654
+    },
+    {
+      "path": "Quiz 2 - kRR A1.txt",
+      "sha256": "00d532569520d27cb590c56047d23ea9827683ddbdc53a887a996e52750b9a90",
+      "bytes": 2527
+    },
+    {
+      "path": "README.md",
+      "sha256": "d991fe402724e5db1442b2a9d28c1d1204df829abd7ebae9a4fff87c8a36d2e5",
+      "bytes": 1752
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "20713bb3bbdf419d2ebcca5990ec3d5242cbaac53a230586eb7d2474d6aa5014",
+      "bytes": 80
+    },
+    {
+      "path": "swish movie rules.txt",
+      "sha256": "fae2b3856268d6bfb1094438ca594567cd83e34bb03df55f4dac4b5ad06e3810",
+      "bytes": 637
+    },
+    {
+      "path": "test_family.py",
+      "sha256": "ba6c26e9211988b69042e573ff72dc655763e9377a3fdccfb6b93a5c5a9f8bea",
+      "bytes": 3146
+    },
+    {
+      "path": "UNIT_PROJECT_1_report.docx.md",
+      "sha256": "0639aa7298f39518220a692f9e3ec1391697e30134b51d2acfbf1b7e64b98c50",
+      "bytes": 10854
+    },
+    {
+      "path": "UNIT_PROJECT_2_report.docx.md",
+      "sha256": "0db2493f9c4e61cf758b0a7130a13318a3308aed99723edfac291df36ebd660c",
+      "bytes": 12638
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "f41906f94315863670f74c8a038eae11cf1a6445bc7b343882553329d36b1424",
+      "bytes": 1003
+    },
+    {
+      "path": "ass2/Assignment 2 krr.txt",
+      "sha256": "e3ebe1b3b02d9109c49c3552b16ded4c8ae01fa478b8b5d902df950fd4913834",
+      "bytes": 600
+    },
+    {
+      "path": "ass2/family_agent 1.py",
+      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
+      "bytes": 33900
+    },
+    {
+      "path": "ass3/Assignment 2 krr.txt",
+      "sha256": "e3ebe1b3b02d9109c49c3552b16ded4c8ae01fa478b8b5d902df950fd4913834",
+      "bytes": 600
+    },
+    {
+      "path": "ass3/family_agent 1.py",
+      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
+      "bytes": 8480
+    },
+    {
+      "path": "ass3/UNIT PROJECT 3.docx.md",
+      "sha256": "3e3e3d09ecf6086b8ed37e479812eda478c4b6d86ba00d5fd221a7e475d8f6c3",
+      "bytes": 5498
+    },
+    {
+      "path": "sample_data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "sample_data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "sample_data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "templates/index.html",
+      "sha256": "b576bddb7fc50574c67cd58bee202147a0da7e961b1a5989411b596faa952d22",
+      "bytes": 4151
+    },
+    {
+      "path": "ass3/assignmnet no 3_Syed muhammad imad/family_agent.py",
+      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
+      "bytes": 8480
+    },
+    {
+      "path": "ass3/assignmnet no 3_Syed muhammad imad/UNIT_PROJECT_3_final.docx.md",
+      "sha256": "7f9ceb578282c9509913f16c6cfdc3c9ee642f4caec037b8a3ab32acfeeee20a",
+      "bytes": 7040
+    },
+    {
+      "path": "ass3/files/app.py",
+      "sha256": "1faf056d80ae05821825d330804c954ddba1cc85193b9537dbabe6a10098657d",
+      "bytes": 1803
+    },
+    {
+      "path": "ass3/files/family_agent.py",
+      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
+      "bytes": 8480
+    },
+    {
+      "path": "ass3/sample_data/family_chat.aiml",
+      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
+      "bytes": 16056
+    },
+    {
+      "path": "ass3/sample_data/family_input.aiml",
+      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
+      "bytes": 9907
+    },
+    {
+      "path": "ass3/sample_data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "ass3/files/sample data/family_chat.aiml",
+      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
+      "bytes": 16056
+    },
+    {
+      "path": "ass3/files/sample data/family_input.aiml",
+      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
+      "bytes": 9907
+    },
+    {
+      "path": "ass3/files/sample data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "ass3/files/templates/index.html",
+      "sha256": "b576bddb7fc50574c67cd58bee202147a0da7e961b1a5989411b596faa952d22",
+      "bytes": 4151
+    },
+    {
+      "path": "ass3/assignmnet no 3_Syed muhammad imad/sample data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "ass3/assignmnet no 3_Syed muhammad imad/sample data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "ass3/assignmnet no 3_Syed muhammad imad/sample data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "ass2/files/app.py",
+      "sha256": "a9897c558ee4b01ae5e00a8c3ff2c2673f7953dd68c93e60eb1e57ef1af86fad",
+      "bytes": 1884
+    },
+    {
+      "path": "ass2/files/family_agent.py",
+      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
+      "bytes": 33900
+    },
+    {
+      "path": "ass2/sample_data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "ass2/sample_data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "ass2/sample_data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "ass2/files/sample data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "ass2/files/sample data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "ass2/files/sample data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "ass2/files/sample_data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "ass2/files/sample_data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "ass2/files/sample_data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "ass2/files/templates/index.html",
+      "sha256": "b576bddb7fc50574c67cd58bee202147a0da7e961b1a5989411b596faa952d22",
+      "bytes": 4151
+    },
+    {
+      "path": "ass1/files/app.py",
+      "sha256": "463d2d9bd19988a5fcc13761646f9fc21d5ef3d953dac492c0c6c6d59335862a",
+      "bytes": 1122
+    },
+    {
+      "path": "ass1/files/family_agent.py",
+      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
+      "bytes": 33900
+    },
+    {
+      "path": "ass1/files/family_chat.aiml",
+      "sha256": "4a6113c7251119ba4169358159b23ec0a337d48982bf750b940ac77bae3c0b4a",
+      "bytes": 49793
+    },
+    {
+      "path": "ass1/files/family_kb.pl",
+      "sha256": "610c3b5bdc297551973f4cbc65589868a02a5de63ec6a2c9055543f612aae863",
+      "bytes": 5896
+    },
+    {
+      "path": "ass1/files/krr_a3.ipynb",
+      "sha256": "3bf45280d737381dae92620816c0e37ff8c3bf0b0d7934d4c60d151295f5d3a4",
+      "bytes": 2344
+    },
+    {
+      "path": "ass1/files/requirements.txt",
+      "sha256": "20713bb3bbdf419d2ebcca5990ec3d5242cbaac53a230586eb7d2474d6aa5014",
+      "bytes": 80
+    },
+    {
+      "path": "ass1/files/sample_data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "ass1/files/sample_data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "ass1/files/sample_data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "ass1/files/templates/index.html",
+      "sha256": "a5955e90711562b153c7173fb65a18f6a35cbf5a282b70f4c04cf9d89dfa43da",
+      "bytes": 3271
+    },
+    {
+      "path": "additional_sources/2026_D_krr/family_agent.py",
+      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
+      "bytes": 33900
+    },
+    {
+      "path": "additional_sources/2026_D_krr/KRR-A3 - class notes.txt",
+      "sha256": "80ed0b7a50853a909476f85ee5ae12ddb1528a25353aebb799820425e00af8c1",
+      "bytes": 2654
+    },
+    {
+      "path": "additional_sources/2026_D_krr/Quiz 2 - kRR A1.txt",
+      "sha256": "00d532569520d27cb590c56047d23ea9827683ddbdc53a887a996e52750b9a90",
+      "bytes": 2527
+    },
+    {
+      "path": "additional_sources/2026_D_krr/requirements.txt",
+      "sha256": "20713bb3bbdf419d2ebcca5990ec3d5242cbaac53a230586eb7d2474d6aa5014",
+      "bytes": 80
+    },
+    {
+      "path": "additional_sources/2026_D_krr/swish movie rules.txt",
+      "sha256": "fae2b3856268d6bfb1094438ca594567cd83e34bb03df55f4dac4b5ad06e3810",
+      "bytes": 637
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/Assignment 2 krr.txt",
+      "sha256": "e3ebe1b3b02d9109c49c3552b16ded4c8ae01fa478b8b5d902df950fd4913834",
+      "bytes": 600
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/family_agent 1.py",
+      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
+      "bytes": 33900
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/Assignment 2 krr.txt",
+      "sha256": "e3ebe1b3b02d9109c49c3552b16ded4c8ae01fa478b8b5d902df950fd4913834",
+      "bytes": 600
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/family_agent 1.py",
+      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
+      "bytes": 8480
+    },
+    {
+      "path": "additional_sources/2026_D_krr/sample_data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "additional_sources/2026_D_krr/sample_data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "additional_sources/2026_D_krr/sample_data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/assignmnet no 3_Syed muhammad imad/family_agent.py",
+      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
+      "bytes": 8480
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/files/app.py",
+      "sha256": "1faf056d80ae05821825d330804c954ddba1cc85193b9537dbabe6a10098657d",
+      "bytes": 1803
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/files/family_agent.py",
+      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
+      "bytes": 8480
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/sample_data/family_chat.aiml",
+      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
+      "bytes": 16056
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/sample_data/family_input.aiml",
+      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
+      "bytes": 9907
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/sample_data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/files/sample data/family_chat.aiml",
+      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
+      "bytes": 16056
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/files/sample data/family_input.aiml",
+      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
+      "bytes": 9907
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/files/sample data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/files/templates/index.html",
+      "sha256": "b576bddb7fc50574c67cd58bee202147a0da7e961b1a5989411b596faa952d22",
+      "bytes": 4151
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/assignmnet no 3_Syed muhammad imad/sample data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/assignmnet no 3_Syed muhammad imad/sample data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass3/assignmnet no 3_Syed muhammad imad/sample data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/files/app.py",
+      "sha256": "a9897c558ee4b01ae5e00a8c3ff2c2673f7953dd68c93e60eb1e57ef1af86fad",
+      "bytes": 1884
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/files/family_agent.py",
+      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
+      "bytes": 33900
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/sample_data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/sample_data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/sample_data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/files/sample data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/files/sample data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/files/sample data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/files/sample_data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/files/sample_data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/files/sample_data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass2/files/templates/index.html",
+      "sha256": "b576bddb7fc50574c67cd58bee202147a0da7e961b1a5989411b596faa952d22",
+      "bytes": 4151
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass1/files/app.py",
+      "sha256": "463d2d9bd19988a5fcc13761646f9fc21d5ef3d953dac492c0c6c6d59335862a",
+      "bytes": 1122
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass1/files/family_agent.py",
+      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
+      "bytes": 33900
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass1/files/family_chat.aiml",
+      "sha256": "4a6113c7251119ba4169358159b23ec0a337d48982bf750b940ac77bae3c0b4a",
+      "bytes": 49793
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass1/files/family_kb.pl",
+      "sha256": "610c3b5bdc297551973f4cbc65589868a02a5de63ec6a2c9055543f612aae863",
+      "bytes": 5896
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass1/files/requirements.txt",
+      "sha256": "20713bb3bbdf419d2ebcca5990ec3d5242cbaac53a230586eb7d2474d6aa5014",
+      "bytes": 80
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass1/files/sample_data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass1/files/sample_data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass1/files/sample_data/family_kb.pl",
+      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
+      "bytes": 3323
+    },
+    {
+      "path": "additional_sources/2026_D_krr/ass1/files/templates/index.html",
+      "sha256": "a5955e90711562b153c7173fb65a18f6a35cbf5a282b70f4c04cf9d89dfa43da",
+      "bytes": 3271
+    }
+  ]
+}

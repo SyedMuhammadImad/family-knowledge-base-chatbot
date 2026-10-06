@@ -1,0 +1,39 @@
+released_after(M, Y) :-
+    movie(M, Y1),
+    Y1 > Y.
+
+released_before(M, Y) :-
+    movie(M, Y1),
+    Y1 < Y.
+
+same_year(M1, M2) :-
+    movie(M1, Y),
+    movie(M2, Y),
+    M1 \= M2.
+
+co_star(A1, A2) :-
+    actor(M, A1, _),
+    actor(M, A2, _),
+    A1 \= A2.
+
+co_star(A1, A2) :-
+    actress(M, A1, _),
+    actress(M, A2, _),
+    A1 \= A2.
+
+co_star(A1, A2) :-
+    actor(M, A1, _),
+    actress(M, A2, _).
+
+co_star(A1, A2) :-
+    actress(M, A1, _),
+    actor(M, A2, _).
+
+star(M, A) :- actor(M, A, _).
+star(M, A) :- actress(M, A, _).
+
+co_star(A1, A2) :-
+    star(M, A1),
+    star(M, A2),
+    A1 \= A2.
+
