@@ -1,6 +1,6 @@
 """
 family_agent.py
-KRR Assignment 2 - Muhammad Imad
+KRR project 2 - Muhammad Imad
 
 Two modes:
   INPUT MODE  — collects facts from natural language → writes to family_kb.pl
@@ -85,7 +85,7 @@ def _canonical_fact(fact_str: str) -> str:
 def build_fact(fact_type: str, *args) -> str:
     """
     Build a valid Prolog fact string from type and arguments.
-    Uses string handling as required by assignment.
+    Uses string handling as required by project.
 
     Examples:
       build_fact("male", "ali")        → "male(ali)."
@@ -715,7 +715,7 @@ class FamilyKnowledgeAgent:
 
 def run_console_chat():
     print("=" * 55)
-    print("  KRR Assignment 2 — Family Knowledge Base Chatbot")
+    print("  KRR project 2 — Family Knowledge Base Chatbot")
     print("=" * 55)
 
     agent = FamilyKnowledgeAgent()

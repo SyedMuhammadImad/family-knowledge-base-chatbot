@@ -1,6 +1,6 @@
 % ==========================================
 % FAMILY KNOWLEDGE BASE - RULES ONLY
-% KRR Assignment 2 - Muhammad Imad
+% KRR project 2 - Muhammad Imad
 % Facts are added dynamically via chatbot
 % ==========================================
 

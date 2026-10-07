@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "project": "family-knowledge-base-chatbot",
-  "completion_scope": "academic project or finished document; not a production certification",
+  "completion_scope": "experimental project or finished document; not a production certification",
   "checks": [
     {
       "name": "Eight logic persistence, inference, cycle/input and Flask route regression tests",
@@ -25,6 +25,6 @@
     }
   ],
   "limitations": [
-    "Local single-user coursework; logic and graph are separate persistence stages. No production or concurrent-user guarantee."
+    "Local single-user project; logic and graph are separate persistence stages. No production or concurrent-user guarantee."
   ]
 }

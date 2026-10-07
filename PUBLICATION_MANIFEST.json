@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "title": "Family knowledge base and chatbot coursework",
+  "date": "2026-10-08",
+  "title": "Family knowledge base and chatbot project",
   "completion_gate_passed": true,
   "files": [
     {
@@ -20,23 +20,28 @@
     },
     {
       "path": "family_agent.py",
-      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
-      "bytes": 33900
+      "sha256": "db9e38b0c30a17a83e982c20ace5572591e27d3de7fe64301f292fd938e11dde",
+      "bytes": 33891
     },
     {
-      "path": "KRR-A3 - class notes.txt",
-      "sha256": "80ed0b7a50853a909476f85ee5ae12ddb1528a25353aebb799820425e00af8c1",
-      "bytes": 2654
+      "path": "graph-modeling-notes.txt",
+      "sha256": "b5e0c857199fda4ba79ab85579ab3ff4606d23d27a6ad80b322fffcb695f1e4f",
+      "bytes": 2656
     },
     {
-      "path": "Quiz 2 - kRR A1.txt",
-      "sha256": "00d532569520d27cb590c56047d23ea9827683ddbdc53a887a996e52750b9a90",
-      "bytes": 2527
+      "path": "logic-console-report.md",
+      "sha256": "127ce4a73388da8481278811d746d8c177aaca35d554f80f14af993b095d658f",
+      "bytes": 11390
+    },
+    {
+      "path": "logic-interface-report.md",
+      "sha256": "88e8cc6f8b05ecfef13d2935a53b53c0f4b7f541d777fb083f41f28400ea7109",
+      "bytes": 12988
     },
     {
       "path": "README.md",
-      "sha256": "d991fe402724e5db1442b2a9d28c1d1204df829abd7ebae9a4fff87c8a36d2e5",
-      "bytes": 1752
+      "sha256": "86df360db476a161c3a73059b4f718eecdd753dc20ef60c89a6a6da51d94a383",
+      "bytes": 1748
     },
     {
       "path": "requirements.txt",
@@ -54,44 +59,34 @@
       "bytes": 3146
     },
     {
-      "path": "UNIT_PROJECT_1_report.docx.md",
-      "sha256": "0639aa7298f39518220a692f9e3ec1391697e30134b51d2acfbf1b7e64b98c50",
-      "bytes": 10854
-    },
-    {
-      "path": "UNIT_PROJECT_2_report.docx.md",
-      "sha256": "0db2493f9c4e61cf758b0a7130a13318a3308aed99723edfac291df36ebd660c",
-      "bytes": 12638
-    },
-    {
       "path": "VERIFICATION.json",
-      "sha256": "f41906f94315863670f74c8a038eae11cf1a6445bc7b343882553329d36b1424",
-      "bytes": 1003
+      "sha256": "cf0c63c3c4fa0c73ceecd6a86425ea2c3e7dce019370e2542da66833edb7588b",
+      "bytes": 1004
     },
     {
-      "path": "ass2/Assignment 2 krr.txt",
-      "sha256": "e3ebe1b3b02d9109c49c3552b16ded4c8ae01fa478b8b5d902df950fd4913834",
-      "bytes": 600
+      "path": "graph-engine/components 2 krr.txt",
+      "sha256": "c310923b60927ab84225ba08df31a17eec6d98e0ec4b1ba4db99057d598b9c58",
+      "bytes": 599
     },
     {
-      "path": "ass2/family_agent 1.py",
-      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
-      "bytes": 33900
-    },
-    {
-      "path": "ass3/Assignment 2 krr.txt",
-      "sha256": "e3ebe1b3b02d9109c49c3552b16ded4c8ae01fa478b8b5d902df950fd4913834",
-      "bytes": 600
-    },
-    {
-      "path": "ass3/family_agent 1.py",
+      "path": "graph-engine/family_agent 1.py",
       "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
       "bytes": 8480
     },
     {
-      "path": "ass3/UNIT PROJECT 3.docx.md",
-      "sha256": "3e3e3d09ecf6086b8ed37e479812eda478c4b6d86ba00d5fd221a7e475d8f6c3",
-      "bytes": 5498
+      "path": "graph-engine/graph-storage-report.md",
+      "sha256": "27d8a57a53f21b28d1a3b7e10357e468c52dbe7aae4a21a78aae5ac73fe5efcd",
+      "bytes": 5627
+    },
+    {
+      "path": "logic-interface/components 2 krr.txt",
+      "sha256": "c310923b60927ab84225ba08df31a17eec6d98e0ec4b1ba4db99057d598b9c58",
+      "bytes": 599
+    },
+    {
+      "path": "logic-interface/family_agent 1.py",
+      "sha256": "db9e38b0c30a17a83e982c20ace5572591e27d3de7fe64301f292fd938e11dde",
+      "bytes": 33891
     },
     {
       "path": "sample_data/family_chat.aiml",
@@ -105,208 +100,203 @@
     },
     {
       "path": "sample_data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
     },
     {
       "path": "templates/index.html",
-      "sha256": "b576bddb7fc50574c67cd58bee202147a0da7e961b1a5989411b596faa952d22",
-      "bytes": 4151
+      "sha256": "23aab4fd86696315dfd74f4a2e8de6918c3b701929516771f0c8c4b29c6a9906",
+      "bytes": 4251
     },
     {
-      "path": "ass3/assignmnet no 3_Syed muhammad imad/family_agent.py",
-      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
-      "bytes": 8480
-    },
-    {
-      "path": "ass3/assignmnet no 3_Syed muhammad imad/UNIT_PROJECT_3_final.docx.md",
-      "sha256": "7f9ceb578282c9509913f16c6cfdc3c9ee642f4caec037b8a3ab32acfeeee20a",
-      "bytes": 7040
-    },
-    {
-      "path": "ass3/files/app.py",
-      "sha256": "1faf056d80ae05821825d330804c954ddba1cc85193b9537dbabe6a10098657d",
-      "bytes": 1803
-    },
-    {
-      "path": "ass3/files/family_agent.py",
-      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
-      "bytes": 8480
-    },
-    {
-      "path": "ass3/sample_data/family_chat.aiml",
-      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
-      "bytes": 16056
-    },
-    {
-      "path": "ass3/sample_data/family_input.aiml",
-      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
-      "bytes": 9907
-    },
-    {
-      "path": "ass3/sample_data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
-    },
-    {
-      "path": "ass3/files/sample data/family_chat.aiml",
-      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
-      "bytes": 16056
-    },
-    {
-      "path": "ass3/files/sample data/family_input.aiml",
-      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
-      "bytes": 9907
-    },
-    {
-      "path": "ass3/files/sample data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
-    },
-    {
-      "path": "ass3/files/templates/index.html",
-      "sha256": "b576bddb7fc50574c67cd58bee202147a0da7e961b1a5989411b596faa952d22",
-      "bytes": 4151
-    },
-    {
-      "path": "ass3/assignmnet no 3_Syed muhammad imad/sample data/family_chat.aiml",
-      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
-      "bytes": 16412
-    },
-    {
-      "path": "ass3/assignmnet no 3_Syed muhammad imad/sample data/family_input.aiml",
-      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
-      "bytes": 12874
-    },
-    {
-      "path": "ass3/assignmnet no 3_Syed muhammad imad/sample data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
-    },
-    {
-      "path": "ass2/files/app.py",
+      "path": "logic-interface/files/app.py",
       "sha256": "a9897c558ee4b01ae5e00a8c3ff2c2673f7953dd68c93e60eb1e57ef1af86fad",
       "bytes": 1884
     },
     {
-      "path": "ass2/files/family_agent.py",
-      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
-      "bytes": 33900
+      "path": "logic-interface/files/family_agent.py",
+      "sha256": "db9e38b0c30a17a83e982c20ace5572591e27d3de7fe64301f292fd938e11dde",
+      "bytes": 33891
     },
     {
-      "path": "ass2/sample_data/family_chat.aiml",
+      "path": "logic-interface/sample_data/family_chat.aiml",
       "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
       "bytes": 16412
     },
     {
-      "path": "ass2/sample_data/family_input.aiml",
+      "path": "logic-interface/sample_data/family_input.aiml",
       "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
       "bytes": 12874
     },
     {
-      "path": "ass2/sample_data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
+      "path": "logic-interface/sample_data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
     },
     {
-      "path": "ass2/files/sample data/family_chat.aiml",
+      "path": "logic-interface/files/sample data/family_chat.aiml",
       "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
       "bytes": 16412
     },
     {
-      "path": "ass2/files/sample data/family_input.aiml",
+      "path": "logic-interface/files/sample data/family_input.aiml",
       "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
       "bytes": 12874
     },
     {
-      "path": "ass2/files/sample data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
+      "path": "logic-interface/files/sample data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
     },
     {
-      "path": "ass2/files/sample_data/family_chat.aiml",
+      "path": "logic-interface/files/sample_data/family_chat.aiml",
       "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
       "bytes": 16412
     },
     {
-      "path": "ass2/files/sample_data/family_input.aiml",
+      "path": "logic-interface/files/sample_data/family_input.aiml",
       "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
       "bytes": 12874
     },
     {
-      "path": "ass2/files/sample_data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
+      "path": "logic-interface/files/sample_data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
     },
     {
-      "path": "ass2/files/templates/index.html",
-      "sha256": "b576bddb7fc50574c67cd58bee202147a0da7e961b1a5989411b596faa952d22",
-      "bytes": 4151
+      "path": "logic-interface/files/templates/index.html",
+      "sha256": "23aab4fd86696315dfd74f4a2e8de6918c3b701929516771f0c8c4b29c6a9906",
+      "bytes": 4251
     },
     {
-      "path": "ass1/files/app.py",
+      "path": "logic-engine/files/app.py",
       "sha256": "463d2d9bd19988a5fcc13761646f9fc21d5ef3d953dac492c0c6c6d59335862a",
       "bytes": 1122
     },
     {
-      "path": "ass1/files/family_agent.py",
-      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
-      "bytes": 33900
+      "path": "logic-engine/files/family_agent.py",
+      "sha256": "db9e38b0c30a17a83e982c20ace5572591e27d3de7fe64301f292fd938e11dde",
+      "bytes": 33891
     },
     {
-      "path": "ass1/files/family_chat.aiml",
+      "path": "logic-engine/files/family_chat.aiml",
       "sha256": "4a6113c7251119ba4169358159b23ec0a337d48982bf750b940ac77bae3c0b4a",
       "bytes": 49793
     },
     {
-      "path": "ass1/files/family_kb.pl",
-      "sha256": "610c3b5bdc297551973f4cbc65589868a02a5de63ec6a2c9055543f612aae863",
-      "bytes": 5896
+      "path": "logic-engine/files/family_kb.pl",
+      "sha256": "d4f0feb6f2ebc3c0e7270711b949f1e7e777a510ead06d80fe1b1f8409d136f2",
+      "bytes": 5893
     },
     {
-      "path": "ass1/files/krr_a3.ipynb",
-      "sha256": "3bf45280d737381dae92620816c0e37ff8c3bf0b0d7934d4c60d151295f5d3a4",
-      "bytes": 2344
+      "path": "logic-engine/files/family_relationships.ipynb",
+      "sha256": "203477e780a3a313cfa7518c441eafd316169625b47fea60a85160b0ab757fd8",
+      "bytes": 2343
     },
     {
-      "path": "ass1/files/requirements.txt",
+      "path": "logic-engine/files/requirements.txt",
       "sha256": "20713bb3bbdf419d2ebcca5990ec3d5242cbaac53a230586eb7d2474d6aa5014",
       "bytes": 80
     },
     {
-      "path": "ass1/files/sample_data/family_chat.aiml",
+      "path": "logic-engine/files/sample_data/family_chat.aiml",
       "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
       "bytes": 16412
     },
     {
-      "path": "ass1/files/sample_data/family_input.aiml",
+      "path": "logic-engine/files/sample_data/family_input.aiml",
       "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
       "bytes": 12874
     },
     {
-      "path": "ass1/files/sample_data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
+      "path": "logic-engine/files/sample_data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
     },
     {
-      "path": "ass1/files/templates/index.html",
+      "path": "logic-engine/files/templates/index.html",
       "sha256": "a5955e90711562b153c7173fb65a18f6a35cbf5a282b70f4c04cf9d89dfa43da",
       "bytes": 3271
     },
     {
+      "path": "graph-engine/files/app.py",
+      "sha256": "1faf056d80ae05821825d330804c954ddba1cc85193b9537dbabe6a10098657d",
+      "bytes": 1803
+    },
+    {
+      "path": "graph-engine/files/family_agent.py",
+      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
+      "bytes": 8480
+    },
+    {
+      "path": "graph-engine/graph-variant/family_agent.py",
+      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
+      "bytes": 8480
+    },
+    {
+      "path": "graph-engine/graph-variant/graph-storage-variant-report.md",
+      "sha256": "38b9c7ca5dafb7a3972ef5a0ca92b1478792ff74bd7ca9c1c8f9899f41df5bb6",
+      "bytes": 7293
+    },
+    {
+      "path": "graph-engine/sample_data/family_chat.aiml",
+      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
+      "bytes": 16056
+    },
+    {
+      "path": "graph-engine/sample_data/family_input.aiml",
+      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
+      "bytes": 9907
+    },
+    {
+      "path": "graph-engine/sample_data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
+    },
+    {
+      "path": "graph-engine/graph-variant/sample data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "graph-engine/graph-variant/sample data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "graph-engine/graph-variant/sample data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
+    },
+    {
+      "path": "graph-engine/files/sample data/family_chat.aiml",
+      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
+      "bytes": 16056
+    },
+    {
+      "path": "graph-engine/files/sample data/family_input.aiml",
+      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
+      "bytes": 9907
+    },
+    {
+      "path": "graph-engine/files/sample data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
+    },
+    {
+      "path": "graph-engine/files/templates/index.html",
+      "sha256": "23aab4fd86696315dfd74f4a2e8de6918c3b701929516771f0c8c4b29c6a9906",
+      "bytes": 4251
+    },
+    {
       "path": "additional_sources/2026_D_krr/family_agent.py",
-      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
-      "bytes": 33900
+      "sha256": "db9e38b0c30a17a83e982c20ace5572591e27d3de7fe64301f292fd938e11dde",
+      "bytes": 33891
     },
     {
-      "path": "additional_sources/2026_D_krr/KRR-A3 - class notes.txt",
-      "sha256": "80ed0b7a50853a909476f85ee5ae12ddb1528a25353aebb799820425e00af8c1",
-      "bytes": 2654
-    },
-    {
-      "path": "additional_sources/2026_D_krr/Quiz 2 - kRR A1.txt",
-      "sha256": "00d532569520d27cb590c56047d23ea9827683ddbdc53a887a996e52750b9a90",
-      "bytes": 2527
+      "path": "additional_sources/2026_D_krr/graph-modeling-notes.txt",
+      "sha256": "b5e0c857199fda4ba79ab85579ab3ff4606d23d27a6ad80b322fffcb695f1e4f",
+      "bytes": 2656
     },
     {
       "path": "additional_sources/2026_D_krr/requirements.txt",
@@ -319,24 +309,24 @@
       "bytes": 637
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/Assignment 2 krr.txt",
-      "sha256": "e3ebe1b3b02d9109c49c3552b16ded4c8ae01fa478b8b5d902df950fd4913834",
-      "bytes": 600
+      "path": "additional_sources/2026_D_krr/graph-engine/components 2 krr.txt",
+      "sha256": "c310923b60927ab84225ba08df31a17eec6d98e0ec4b1ba4db99057d598b9c58",
+      "bytes": 599
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/family_agent 1.py",
-      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
-      "bytes": 33900
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/Assignment 2 krr.txt",
-      "sha256": "e3ebe1b3b02d9109c49c3552b16ded4c8ae01fa478b8b5d902df950fd4913834",
-      "bytes": 600
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/family_agent 1.py",
+      "path": "additional_sources/2026_D_krr/graph-engine/family_agent 1.py",
       "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
       "bytes": 8480
+    },
+    {
+      "path": "additional_sources/2026_D_krr/logic-interface/components 2 krr.txt",
+      "sha256": "c310923b60927ab84225ba08df31a17eec6d98e0ec4b1ba4db99057d598b9c58",
+      "bytes": 599
+    },
+    {
+      "path": "additional_sources/2026_D_krr/logic-interface/family_agent 1.py",
+      "sha256": "db9e38b0c30a17a83e982c20ace5572591e27d3de7fe64301f292fd938e11dde",
+      "bytes": 33891
     },
     {
       "path": "additional_sources/2026_D_krr/sample_data/family_chat.aiml",
@@ -350,178 +340,178 @@
     },
     {
       "path": "additional_sources/2026_D_krr/sample_data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
     },
     {
-      "path": "additional_sources/2026_D_krr/ass3/assignmnet no 3_Syed muhammad imad/family_agent.py",
-      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
-      "bytes": 8480
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/files/app.py",
-      "sha256": "1faf056d80ae05821825d330804c954ddba1cc85193b9537dbabe6a10098657d",
-      "bytes": 1803
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/files/family_agent.py",
-      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
-      "bytes": 8480
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/sample_data/family_chat.aiml",
-      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
-      "bytes": 16056
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/sample_data/family_input.aiml",
-      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
-      "bytes": 9907
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/sample_data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/files/sample data/family_chat.aiml",
-      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
-      "bytes": 16056
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/files/sample data/family_input.aiml",
-      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
-      "bytes": 9907
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/files/sample data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/files/templates/index.html",
-      "sha256": "b576bddb7fc50574c67cd58bee202147a0da7e961b1a5989411b596faa952d22",
-      "bytes": 4151
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/assignmnet no 3_Syed muhammad imad/sample data/family_chat.aiml",
-      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
-      "bytes": 16412
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/assignmnet no 3_Syed muhammad imad/sample data/family_input.aiml",
-      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
-      "bytes": 12874
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass3/assignmnet no 3_Syed muhammad imad/sample data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
-    },
-    {
-      "path": "additional_sources/2026_D_krr/ass2/files/app.py",
+      "path": "additional_sources/2026_D_krr/logic-interface/files/app.py",
       "sha256": "a9897c558ee4b01ae5e00a8c3ff2c2673f7953dd68c93e60eb1e57ef1af86fad",
       "bytes": 1884
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/files/family_agent.py",
-      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
-      "bytes": 33900
+      "path": "additional_sources/2026_D_krr/logic-interface/files/family_agent.py",
+      "sha256": "db9e38b0c30a17a83e982c20ace5572591e27d3de7fe64301f292fd938e11dde",
+      "bytes": 33891
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/sample_data/family_chat.aiml",
+      "path": "additional_sources/2026_D_krr/logic-interface/sample_data/family_chat.aiml",
       "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
       "bytes": 16412
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/sample_data/family_input.aiml",
+      "path": "additional_sources/2026_D_krr/logic-interface/sample_data/family_input.aiml",
       "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
       "bytes": 12874
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/sample_data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
+      "path": "additional_sources/2026_D_krr/logic-interface/sample_data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/files/sample data/family_chat.aiml",
+      "path": "additional_sources/2026_D_krr/logic-interface/files/sample data/family_chat.aiml",
       "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
       "bytes": 16412
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/files/sample data/family_input.aiml",
+      "path": "additional_sources/2026_D_krr/logic-interface/files/sample data/family_input.aiml",
       "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
       "bytes": 12874
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/files/sample data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
+      "path": "additional_sources/2026_D_krr/logic-interface/files/sample data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/files/sample_data/family_chat.aiml",
+      "path": "additional_sources/2026_D_krr/logic-interface/files/sample_data/family_chat.aiml",
       "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
       "bytes": 16412
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/files/sample_data/family_input.aiml",
+      "path": "additional_sources/2026_D_krr/logic-interface/files/sample_data/family_input.aiml",
       "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
       "bytes": 12874
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/files/sample_data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
+      "path": "additional_sources/2026_D_krr/logic-interface/files/sample_data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
     },
     {
-      "path": "additional_sources/2026_D_krr/ass2/files/templates/index.html",
-      "sha256": "b576bddb7fc50574c67cd58bee202147a0da7e961b1a5989411b596faa952d22",
-      "bytes": 4151
+      "path": "additional_sources/2026_D_krr/logic-interface/files/templates/index.html",
+      "sha256": "23aab4fd86696315dfd74f4a2e8de6918c3b701929516771f0c8c4b29c6a9906",
+      "bytes": 4251
     },
     {
-      "path": "additional_sources/2026_D_krr/ass1/files/app.py",
+      "path": "additional_sources/2026_D_krr/logic-engine/files/app.py",
       "sha256": "463d2d9bd19988a5fcc13761646f9fc21d5ef3d953dac492c0c6c6d59335862a",
       "bytes": 1122
     },
     {
-      "path": "additional_sources/2026_D_krr/ass1/files/family_agent.py",
-      "sha256": "5e986aec82c76ffde51aa2d8a5ec4e56cd80db392122d32f40ffd949cc07271a",
-      "bytes": 33900
+      "path": "additional_sources/2026_D_krr/logic-engine/files/family_agent.py",
+      "sha256": "db9e38b0c30a17a83e982c20ace5572591e27d3de7fe64301f292fd938e11dde",
+      "bytes": 33891
     },
     {
-      "path": "additional_sources/2026_D_krr/ass1/files/family_chat.aiml",
+      "path": "additional_sources/2026_D_krr/logic-engine/files/family_chat.aiml",
       "sha256": "4a6113c7251119ba4169358159b23ec0a337d48982bf750b940ac77bae3c0b4a",
       "bytes": 49793
     },
     {
-      "path": "additional_sources/2026_D_krr/ass1/files/family_kb.pl",
-      "sha256": "610c3b5bdc297551973f4cbc65589868a02a5de63ec6a2c9055543f612aae863",
-      "bytes": 5896
+      "path": "additional_sources/2026_D_krr/logic-engine/files/family_kb.pl",
+      "sha256": "d4f0feb6f2ebc3c0e7270711b949f1e7e777a510ead06d80fe1b1f8409d136f2",
+      "bytes": 5893
     },
     {
-      "path": "additional_sources/2026_D_krr/ass1/files/requirements.txt",
+      "path": "additional_sources/2026_D_krr/logic-engine/files/requirements.txt",
       "sha256": "20713bb3bbdf419d2ebcca5990ec3d5242cbaac53a230586eb7d2474d6aa5014",
       "bytes": 80
     },
     {
-      "path": "additional_sources/2026_D_krr/ass1/files/sample_data/family_chat.aiml",
+      "path": "additional_sources/2026_D_krr/logic-engine/files/sample_data/family_chat.aiml",
       "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
       "bytes": 16412
     },
     {
-      "path": "additional_sources/2026_D_krr/ass1/files/sample_data/family_input.aiml",
+      "path": "additional_sources/2026_D_krr/logic-engine/files/sample_data/family_input.aiml",
       "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
       "bytes": 12874
     },
     {
-      "path": "additional_sources/2026_D_krr/ass1/files/sample_data/family_kb.pl",
-      "sha256": "1ddf283cf9e7a992542dcd8045a782186823573fb9e95114478591c8c4a09a4a",
-      "bytes": 3323
+      "path": "additional_sources/2026_D_krr/logic-engine/files/sample_data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
     },
     {
-      "path": "additional_sources/2026_D_krr/ass1/files/templates/index.html",
+      "path": "additional_sources/2026_D_krr/logic-engine/files/templates/index.html",
       "sha256": "a5955e90711562b153c7173fb65a18f6a35cbf5a282b70f4c04cf9d89dfa43da",
       "bytes": 3271
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/files/app.py",
+      "sha256": "1faf056d80ae05821825d330804c954ddba1cc85193b9537dbabe6a10098657d",
+      "bytes": 1803
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/files/family_agent.py",
+      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
+      "bytes": 8480
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/graph-variant/family_agent.py",
+      "sha256": "ae73ecf76b819cf423f062687d8d63bbd121eee0333d1223532d1e5e7071d2d0",
+      "bytes": 8480
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/sample_data/family_chat.aiml",
+      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
+      "bytes": 16056
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/sample_data/family_input.aiml",
+      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
+      "bytes": 9907
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/sample_data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/graph-variant/sample data/family_chat.aiml",
+      "sha256": "c8fd860b723addb72c4ed86589fc7cdadc5251c8c3656f71548c0eff64e64f18",
+      "bytes": 16412
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/graph-variant/sample data/family_input.aiml",
+      "sha256": "a24b0acdae5f1d79386895a41d9b61f4fcb87cbec31c78a0f4c91d2d92526b9a",
+      "bytes": 12874
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/graph-variant/sample data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/files/sample data/family_chat.aiml",
+      "sha256": "6001466a33715915f348026aacef398f6dc41c52233649085d79f4628e30ac7d",
+      "bytes": 16056
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/files/sample data/family_input.aiml",
+      "sha256": "083096e6a753b9527f78a1294d13b2e34fb1ea61e6b97f1d5a56fcadcdd02e8d",
+      "bytes": 9907
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/files/sample data/family_kb.pl",
+      "sha256": "9d31449a3a176e8d7087990c08c9117941515aa7c5b12dfcdea8f4e7a7c46fc9",
+      "bytes": 3320
+    },
+    {
+      "path": "additional_sources/2026_D_krr/graph-engine/files/templates/index.html",
+      "sha256": "23aab4fd86696315dfd74f4a2e8de6918c3b701929516771f0c8c4b29c6a9906",
+      "bytes": 4251
     }
   ]
 }
